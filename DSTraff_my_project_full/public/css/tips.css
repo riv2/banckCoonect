@@ -1,0 +1,39 @@
+﻿@charset "utf-8";
+
+
+
+img.tTip						{ margin: 8px 15px 8px 0px; float: left; }
+h1.massive						{ font-size: 40px; line-height: 30px; padding: 0px; color: #f4c20a; }
+#demo_wrapper					{ width: 600px; margin: 30px auto 0px auto; }
+
+.lightTip						{ width: 25%;}
+.lightTip .content				{ width: 80%; padding: 10px 5px 10px 5px; border: 1px solid #e2e2e2; -moz-border-radius: 3px; -webkit-border-radius: 3px; background: #ffffff; color: #020202; }
+
+
+.yellowTip						{ width: 342px; }
+.yellowTip .content				{ width: 310px; padding: 10px; border: 2px solid #f9e98e; -moz-border-radius: 5px; -webkit-border-radius: 5px; background: #fbf7aa; color: #020202; }
+.yellowTip .bottom				{ height: 14px; background: url(../images/notch-yellow.png) top center no-repeat; }
+
+.orangeTip						{ width: 342px; }
+.orangeTip .content				{ width: 310px; padding: 10px; border: 2px solid #f9cd8e; -moz-border-radius: 5px; -webkit-border-radius: 5px; background: #fbe3aa; color: #020202; }
+.orangeTip .bottom				{ height: 14px; background: url(../images/notch-orange.png) top center no-repeat; }
+
+.redTip							{ width: 342px; }
+.redTip .content				{ width: 310px; padding: 10px; border: 2px solid #ce6f6f; -moz-border-radius: 5px; -webkit-border-radius: 5px; background: #f79992; color: #020202; }
+.redTip .bottom					{ height: 14px; background: url(../images/notch-red.png) top center no-repeat; }
+
+.greenTip						{ width: 342px; }
+.greenTip .content				{ width: 310px; padding: 10px; border: 2px solid #a9db66; -moz-border-radius: 5px; -webkit-border-radius: 5px; background: #cae8a2; color: #020202; }
+.greenTip .bottom				{ height: 14px; background: url(../images/notch-green.png) top center no-repeat; }
+
+.blueTip						{ width: 342px; }
+.blueTip .content				{ width: 310px; padding: 10px; border: 2px solid #36a4d9; -moz-border-radius: 5px; -webkit-border-radius: 5px; background: #90d8f0; color: #020202; }
+.blueTip .bottom				{ height: 14px; background: url(../images/notch-blue.png) top center no-repeat; }
+
+.purpleTip						{ width: 342px; }
+.purpleTip .content				{ width: 310px; padding: 10px; border: 2px solid #8671de; -moz-border-radius: 5px; -webkit-border-radius: 5px; background: #a290f0; color: #020202; }
+.purpleTip .bottom				{ height: 14px; background: url(../images/notch-purple.png) top center no-repeat; }
+
+.darkTip						{ width: 342px; }
+.darkTip .content				{ width: 310px; padding: 10px; border: 2px solid #303030; -moz-border-radius: 5px; -webkit-border-radius: 5px; background: #505050; color: #f8f8f8; }
+.darkTip .bottom				{ height: 14px; background: url(../images/notch-dark.png) top center no-repeat; }

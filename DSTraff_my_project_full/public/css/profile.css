@@ -1,0 +1,194 @@
+.profileItem {
+margin:5px 15px 5px 15px;
+}
+
+.profileItem input {
+width:270px;
+}
+
+.profileItem textarea {
+width:270px;
+height:100px;
+}
+
+.profileItemRadio {
+margin-left:20px;
+}
+
+.profileLabel {
+
+font-size:10px;
+font-weight:bold;
+}
+
+.profileInfo {
+float:left;
+width:300px;
+padding:15px;
+border:1px dotted rgba(249,154,38,0.7);
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+background:#fff;
+margin-bottom:50px;
+}
+
+.profileInvite {
+float:left;
+width:320px;
+padding:15px;
+border:1px dotted rgba(249,154,38,0.7);
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+background:#fff;
+margin-left:15px;
+margin-bottom:65px;
+}
+
+
+.inviteCount {
+float:left;
+font-weight:bold;
+font-size:11px;
+padding: 5px 3px 0 0px;
+}
+
+.profileInviteItem {
+float:left;
+width:280px;
+text-align:center;
+padding:5px;
+border:1px solid #c4beb7;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+background:rgba(249,154,38,0.7);
+color:fff;
+margin-bottom:10px;
+}
+.profileWhoUsedLogin {
+width: 260px;
+text-align: center;
+cursor: default;
+padding: 2px;
+border: 1px solid rgba(249,154,38,0.7);
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+margin-left: 20px;
+margin-bottom: 10px;
+}
+
+.inviteUsed {
+background:#fa8f89;
+text-decoration:line-through;
+cursor:default;
+margin-bottom:3px;
+}
+
+.buffered {
+background:green;
+color:white;
+}
+
+.pInvite {
+margin-top:5px;
+text-align:center;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+background:rgba(249,154,38,0.7);
+color:#fff;
+cursor:default;
+padding:3px;
+font-size:13px;
+}
+
+
+.pColorSwitcher {
+float:left;
+width:300px;
+padding:15px;
+border:1px dotted rgba(249,154,38,0.7);
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+background:#fff;
+margin-left:15px;
+margin-bottom:15px;
+}
+
+.pColorItems {
+width:290px;
+height:30px;
+margin:5px;
+border:1px solid rgba(249,154,38,0.7);
+-webkit-border-radius: 2px;
+-moz-border-radius: 2px;
+border-radius: 2px;
+}
+
+.pColorItem {
+float:left;
+width:18px;
+height:18px;
+margin:5px;
+margin-top:5px;
+-webkit-border-radius: 2px;
+-moz-border-radius: 2px;
+border-radius: 2px;
+}
+
+.pColorActive {
+width:22px;
+height:22px;
+margin-top:3px;
+border:1px solid #000;
+}
+
+
+.pColorBlue {
+background-color:blue;
+}
+
+.pColorRed {
+background-color:red;
+}
+
+.pColorGreen {
+background-color:green;
+}
+
+.pColorGrey {
+background-color:gray;
+}
+
+.pColorOrange {
+background-color:orange;
+}
+
+.pColorCyan {
+background-color:#66CDAA;
+}
+
+.pColorPeru {
+background-color:#CD853F;
+}
+
+.pColorOrchid {
+background-color:#BA55D3;
+}
+
+.pColorBrown {
+background-color:#A52A2A;
+}
+
+.pColorBlack {
+background-color:#000;
+}
+
+
+
+
+

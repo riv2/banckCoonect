@@ -1,0 +1,99 @@
+.Conteiner {
+}
+
+.sTable {
+width:900px;
+}
+
+.sTable th {
+text-align:left!important;
+font-size:12px;
+}
+
+.sTrackers {
+width:200px;
+padding-right:25px;
+}
+
+.sTrackers select {
+width:200px;
+}
+
+.sRules {
+width:100px;
+padding-right:15px;
+}
+
+.sNumber {
+width:10px;
+padding-right:60px;
+}
+
+.diagram {
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+-webkit-box-shadow: 0px 0px 4px 0px rgba(50, 50, 50, 0.75);
+-moz-box-shadow:    0px 0px 4px 0px rgba(50, 50, 50, 0.75);
+box-shadow:         0px 0px 4px 0px rgba(50, 50, 50, 0.75);
+}
+
+.report_1_btn {
+cursor:pointer;
+text-decoration:underline;
+}
+
+.report_1_icon {
+ background-image: url("../public/img/authorized/exel.png");
+ padding:3px 15px 15px 8px;
+ 	 background-repeat: no-repeat;
+	 margin-top:15px;
+}
+
+.prev_table {
+background-color:rgba(255,255,255,0.8);
+}
+
+
+.prev_table  th {
+border-left:1px solid rgba(0,0,0,0.2);
+border-right:1px solid rgba(0,0,0,0.2);
+border-bottom:1px solid rgba(0,0,0,0.2);
+font-weight:bold;
+text-align:center;
+padding:15px;
+
+}
+
+.prev_table  td {
+border-left:1px solid rgba(0,0,0,0.2);
+border-right:1px solid rgba(0,0,0,0.2);
+padding:10px;
+ white-space: pre; 
+}
+
+.bg_blue {
+	background-color:rgba(50,50,255,0.05);
+}
+
+.bg_red {
+	background-color:rgba(255,50,50,0.05);
+}
+
+.bg_white {
+	background-color:rgba(255,255,255,1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

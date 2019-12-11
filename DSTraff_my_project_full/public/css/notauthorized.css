@@ -1,0 +1,381 @@
+@font-face {
+	/*****************************
+	 All rights reserved.
+	 AllFont.ru (c) 2011-2015
+	 *****************************/
+    font-family: 'Arvo';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Arvo'), local('Arvo-Regular'),
+        url(fonts/arvo_b1fdfe21708d7c470c3a4ef8bb7a0963.woff) format('woff'),
+        url(fonts/arvo_b1fdfe21708d7c470c3a4ef8bb7a0963.ttf) format('truetype');
+}
+
+* {
+ font-family: 'Arvo', arial;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  display:none;
+  width: 100%;
+  min-height: 100%;
+  -moz-user-select: none;
+  -o-user-select:none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+   user-select: none; 
+   cursor:default;
+   background-image: url("../img/notauthorized/fon.png");
+   background-position: 0 center;
+}
+
+.header {
+position:relative;
+}
+.contacts {
+position:absolute;
+top:58px;
+left:24%;
+font-size:12px;
+font-weight:bold;
+}
+
+.forum {
+position:absolute;
+top:58px;
+left:62%;
+font-size:12px;
+font-weight:bold;
+}
+
+.forum a {
+color: rgba(0,0,0,1);
+}
+
+.forum a:hover {
+color: rgba(0,0,0,0.5);
+}
+
+.skype {
+ background-image: url("../img/notauthorized/skype.png");
+ padding:3px 15px 15px 8px;
+ 	 background-repeat: no-repeat;
+	 margin-top:15px;
+
+}
+
+.email {
+ background-image: url("../img/notauthorized/email.png");
+ padding:3px 15px 15px 8px;
+ 	 background-repeat: no-repeat;
+
+}
+
+.tskype {
+color: rgba(0,0,0,1);
+}
+
+.temail {
+color: rgba(0,0,0,1);
+}
+
+.logo {
+
+}
+
+.conteiner {
+ background-image: url("../img/notauthorized/back.png");
+ min-height: 320px;
+ height:705px;
+   -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
+	 background-repeat: no-repeat;
+	 position:relative;
+}
+
+.auth {
+position:absolute;
+top:15%;
+left:30%;
+}
+
+.aHeader {
+text-align:center;
+padding:15px;
+font-size:28px;
+color:rgba(248,242,230,1);
+}
+
+.aInput {
+text-align:center;
+padding:15px;
+}
+
+.ilogin {
+ background-image: url("../img/notauthorized/ilogin.png");
+padding:11px 34px 12px 10px;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
+	background-repeat: no-repeat;
+}
+.ipass {
+ background-image: url("../img/notauthorized/ipass.png");
+padding:11px 34px 12px 10px;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
+	background-repeat: no-repeat;
+}
+
+.iemail {
+ background-image: url("../img/notauthorized/iemail.png");
+padding:11px 34px 12px 10px;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
+	background-repeat: no-repeat;
+}
+.iinvite {
+ background-image: url("../img/notauthorized/iinvite.png");
+padding:11px 34px 12px 10px;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
+	background-repeat: no-repeat;
+}
+
+.aInput input {
+padding:10px 10px 10px 10px;
+background-color:rgba(248,242,230,1);
+color:black;
+border:1px solid rgba(0,0,0,0);
+-webkit-border-top-right-radius: 5px;
+-webkit-border-bottom-right-radius: 5px;
+-moz-border-radius-topright: 5px;
+-moz-border-radius-bottomright: 5px;
+border-top-right-radius: 5px;
+border-bottom-right-radius: 5px;
+}
+
+.aButton {
+text-align:center;
+padding:15px;
+}
+
+.aButton input {
+padding:10px 30px 10px 30px;
+background-color:black;
+color:rgba(248,242,230,1);
+border:0px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+}
+
+.aButton input:active {
+background-color:rgba(248,242,230,1);
+color:black;
+}
+
+.aHref {
+text-align:center;
+padding:15px;
+font-size:18px;
+color:rgba(248,242,230,1);
+text-decoration:underline;
+}
+
+.aHref a:hover {
+cursor:pointer;
+}
+
+.aHref a:active {
+color:black;
+}
+
+.reg {
+position:absolute;
+top:16%;
+left:32%;
+display:none;
+}
+
+.rHeader {
+text-align:center;
+padding:3px;
+font-size:28px;
+color:rgba(248,242,230,1);
+}
+
+.rInput {
+text-align:center;
+padding:3px;
+}
+
+.ireg {
+ background-image: url("../img/notauthorized/ireg.png");
+padding:9px 34px 9px 8px;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
+	background-repeat: no-repeat;
+}
+
+.rInput input {
+padding:10px 10px 10px 10px;
+background-color:rgba(248,242,230,1);
+color:black;
+border:1px solid rgba(0,0,0,0);
+-webkit-border-top-right-radius: 5px;
+-webkit-border-bottom-right-radius: 5px;
+-moz-border-radius-topright: 5px;
+-moz-border-radius-bottomright: 5px;
+border-top-right-radius: 5px;
+border-bottom-right-radius: 5px;
+}
+
+
+.rButton {
+text-align:center;
+padding:3px;
+}
+
+.rButton input {
+padding:10px 30px 10px 30px;
+background-color:black;
+color:rgba(248,242,230,1);
+border:0px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+}
+
+.rButton input:active {
+background-color:rgba(248,242,230,1);
+color:black;
+}
+
+.rHref {
+text-align:center;
+padding:3px;
+font-size:18px;
+color:rgba(248,242,230,1);
+text-decoration:underline;
+}
+
+.rHref a:hover {
+cursor:pointer;
+}
+
+.rHref a:active {
+color:black;
+}
+
+.footer {
+  height: 115px;
+  position:relative;
+}
+
+.copyrg {
+font-size:12px;
+font-weight:bold;
+padding-top:40px;
+}
+
+.counter {
+position:absolute;
+bottom:0px;
+right:15px;
+}
+
+.selectOn {
+  -moz-user-select: text;
+  -o-user-select:text;
+  -khtml-user-select: text;
+  -webkit-user-select: text;
+  -ms-user-select: text;
+   user-select: text; 
+   cursor:text;
+}
+
+
+@media (max-width: 1700px) {
+  .conteiner {
+   height:605px;
+  }
+    .contacts {
+	left:20%;
+	}
+}
+@media (max-width: 1500px) {
+  .conteiner {
+   height:555px;
+  }
+    .contacts {
+	left:15%;
+	}
+
+@media (max-width: 1367px) {
+  .conteiner {
+   height:485px;
+  }
+  .contacts {
+	left:12%;
+	}
+	.forum {
+	left:66%;
+	}
+
+@media (max-width: 1100px) {
+  .conteiner {
+   height:405px;
+  }
+  .auth {
+	top:7%;
+	left:25%;
+  }
+  .reg {
+	top:7%;
+	left:25%;
+  }
+    .contacts {
+	left:5%;
+	}
+	.forum {
+	left:66%;
+	}
+
+@media (max-width: 900px) {
+  .conteiner {
+   height:355px;
+  }
+   .auth {
+	top:0%;
+	left:20%;
+  }
+  .reg {
+	top:0%;
+	left:20%;
+  }
+    .contacts {
+	left:3%;
+	}
+	.forum {
+	left:68%;
+	}
+    
+}

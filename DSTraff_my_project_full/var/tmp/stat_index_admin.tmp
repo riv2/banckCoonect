@@ -1,0 +1,31 @@
+   
+    <table id='graph_2' style = 'display:none;'>
+				<caption>Количество отправленных запросов по Админ траффику за последнии 10 дней.</caption>
+				<thead>
+					<tr>
+								<th>26 Apr</th><th>25 Apr</th><th>24 Apr</th><th>23 Apr</th><th>22 Apr</th><th>21 Apr</th><th>20 Apr</th><th>19 Apr</th><th>18 Apr</th><th>17 Apr</th><th>16 Apr</th><th>15 Apr</th><th>14 Apr</th>					</tr>
+				</thead>
+					<tbody>
+					<tr>
+						<th>Показы</th>
+								<td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>					</tr>
+					<tr>
+						<th>Клики</th>
+								<td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>					</tr>
+					<tr>
+						<th>Редиректы</th>
+								<td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>					</tr>
+					<tr>
+						<th>Бонус Ред</th>
+								<td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>					</tr>
+					<tr>
+						<th>Фреймы</th>
+								<td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>					 </tr>
+					 <tr>
+						<th>Бонус Фрм</th>
+								<td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>					 </tr>
+				</tbody>
+			</table>
+
+
+

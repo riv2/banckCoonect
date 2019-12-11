@@ -1,0 +1,17 @@
+   
+    <table id='graph_1' style = 'display:none;'>
+				<caption>Количество отправленных запросов за последнии 10 дней.</caption>
+				<thead>
+					<tr>
+								<th>26 Apr</th><th>25 Apr</th><th>24 Apr</th><th>23 Apr</th><th>22 Apr</th><th>21 Apr</th><th>20 Apr</th><th>19 Apr</th><th>18 Apr</th><th>17 Apr</th><th>16 Apr</th><th>15 Apr</th><th>14 Apr</th>					</tr>
+				</thead>
+					<tbody>
+					<tr>
+						<th>Редиректы</th>
+								<td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>					</tr>
+					<tr>
+						<th>Показы</th>
+								<td>1</td><td>1</td><td>0</td><td>2</td><td>2</td><td>1</td><td>0</td><td>3</td><td>3</td><td>1</td><td>2</td>					</tr>
+				</tbody>
+			</table>
+			

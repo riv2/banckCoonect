@@ -1,0 +1,22 @@
+ .tBannerSwfConteiner {
+	position:relative;
+ }
+  .tBannerSwfClick {
+	 cursor:pointer;
+	 position:absolute;
+	 top:0px;
+	 left:0px;
+	 width:100%;
+	 height:100%;
+	 z-index:1000;
+ }
+  .tBannerSwfObject {
+	 width:100%;
+	 height:100%;
+ }
+  .tBannerImg {
+	 min-width:0px!important;
+	 min-height:0px!important;
+	 max-width:3000px!important;
+	 max-height:3000px!important; 
+ }

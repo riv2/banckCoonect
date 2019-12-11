@@ -1,0 +1,208 @@
+[17-Apr-2018 10:23:02 Europe/Moscow] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'dubai'@'localhost' (using password: YES) in /var/www/dubai.vsyako-raznoe.ru/block.php on line 3
+[17-Apr-2018 10:23:02 Europe/Moscow] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 4
+[17-Apr-2018 10:23:02 Europe/Moscow] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 188
+[17-Apr-2018 10:23:02 Europe/Moscow] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 191
+[17-Apr-2018 10:23:02 Europe/Moscow] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 193
+[17-Apr-2018 10:23:05 Europe/Moscow] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'dubai'@'localhost' (using password: YES) in /var/www/dubai.vsyako-raznoe.ru/block.php on line 3
+[17-Apr-2018 10:23:05 Europe/Moscow] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 4
+[17-Apr-2018 10:23:05 Europe/Moscow] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 188
+[17-Apr-2018 10:23:05 Europe/Moscow] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 191
+[17-Apr-2018 10:23:05 Europe/Moscow] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 193
+[17-Apr-2018 10:23:07 Europe/Moscow] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'dubai'@'localhost' (using password: YES) in /var/www/dubai.vsyako-raznoe.ru/block.php on line 3
+[17-Apr-2018 10:23:07 Europe/Moscow] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 4
+[17-Apr-2018 10:23:07 Europe/Moscow] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 188
+[17-Apr-2018 10:23:07 Europe/Moscow] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 191
+[17-Apr-2018 10:23:07 Europe/Moscow] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 193
+[17-Apr-2018 10:23:10 Europe/Moscow] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'dubai'@'localhost' (using password: YES) in /var/www/dubai.vsyako-raznoe.ru/block.php on line 3
+[17-Apr-2018 10:23:10 Europe/Moscow] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 4
+[17-Apr-2018 10:23:10 Europe/Moscow] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 188
+[17-Apr-2018 10:23:10 Europe/Moscow] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 191
+[17-Apr-2018 10:23:10 Europe/Moscow] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 193
+[17-Apr-2018 10:23:12 Europe/Moscow] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'dubai'@'localhost' (using password: YES) in /var/www/dubai.vsyako-raznoe.ru/block.php on line 3
+[17-Apr-2018 10:23:12 Europe/Moscow] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 4
+[17-Apr-2018 10:23:12 Europe/Moscow] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 188
+[17-Apr-2018 10:23:12 Europe/Moscow] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 191
+[17-Apr-2018 10:23:12 Europe/Moscow] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 193
+[17-Apr-2018 10:23:14 Europe/Moscow] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'dubai'@'localhost' (using password: YES) in /var/www/dubai.vsyako-raznoe.ru/block.php on line 3
+[17-Apr-2018 10:23:14 Europe/Moscow] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 4
+[17-Apr-2018 10:23:14 Europe/Moscow] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 188
+[17-Apr-2018 10:23:14 Europe/Moscow] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 191
+[17-Apr-2018 10:23:14 Europe/Moscow] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 193
+[17-Apr-2018 10:23:16 Europe/Moscow] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'dubai'@'localhost' (using password: YES) in /var/www/dubai.vsyako-raznoe.ru/block.php on line 3
+[17-Apr-2018 10:23:16 Europe/Moscow] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 4
+[17-Apr-2018 10:23:16 Europe/Moscow] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 188
+[17-Apr-2018 10:23:16 Europe/Moscow] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 191
+[17-Apr-2018 10:23:16 Europe/Moscow] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 193
+[17-Apr-2018 10:23:17 Europe/Moscow] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'dubai'@'localhost' (using password: YES) in /var/www/dubai.vsyako-raznoe.ru/block.php on line 3
+[17-Apr-2018 10:23:17 Europe/Moscow] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 4
+[17-Apr-2018 10:23:17 Europe/Moscow] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 188
+[17-Apr-2018 10:23:17 Europe/Moscow] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 191
+[17-Apr-2018 10:23:17 Europe/Moscow] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 193
+[17-Apr-2018 10:23:18 Europe/Moscow] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'dubai'@'localhost' (using password: YES) in /var/www/dubai.vsyako-raznoe.ru/block.php on line 3
+[17-Apr-2018 10:23:18 Europe/Moscow] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 4
+[17-Apr-2018 10:23:18 Europe/Moscow] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 188
+[17-Apr-2018 10:23:18 Europe/Moscow] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 191
+[17-Apr-2018 10:23:18 Europe/Moscow] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 193
+[17-Apr-2018 10:23:19 Europe/Moscow] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'dubai'@'localhost' (using password: YES) in /var/www/dubai.vsyako-raznoe.ru/block.php on line 3
+[17-Apr-2018 10:23:19 Europe/Moscow] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 4
+[17-Apr-2018 10:23:19 Europe/Moscow] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 188
+[17-Apr-2018 10:23:19 Europe/Moscow] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 191
+[17-Apr-2018 10:23:19 Europe/Moscow] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 193
+[17-Apr-2018 10:23:20 Europe/Moscow] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'dubai'@'localhost' (using password: YES) in /var/www/dubai.vsyako-raznoe.ru/block.php on line 3
+[17-Apr-2018 10:23:20 Europe/Moscow] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 4
+[17-Apr-2018 10:23:20 Europe/Moscow] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 188
+[17-Apr-2018 10:23:20 Europe/Moscow] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 191
+[17-Apr-2018 10:23:20 Europe/Moscow] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 193
+[17-Apr-2018 10:23:21 Europe/Moscow] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'dubai'@'localhost' (using password: YES) in /var/www/dubai.vsyako-raznoe.ru/block.php on line 3
+[17-Apr-2018 10:23:21 Europe/Moscow] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 4
+[17-Apr-2018 10:23:21 Europe/Moscow] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 188
+[17-Apr-2018 10:23:21 Europe/Moscow] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 191
+[17-Apr-2018 10:23:21 Europe/Moscow] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 193
+[17-Apr-2018 10:23:23 Europe/Moscow] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'dubai'@'localhost' (using password: YES) in /var/www/dubai.vsyako-raznoe.ru/block.php on line 3
+[17-Apr-2018 10:23:23 Europe/Moscow] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 4
+[17-Apr-2018 10:23:23 Europe/Moscow] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 188
+[17-Apr-2018 10:23:23 Europe/Moscow] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 191
+[17-Apr-2018 10:23:23 Europe/Moscow] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 193
+[17-Apr-2018 10:23:25 Europe/Moscow] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'dubai'@'localhost' (using password: YES) in /var/www/dubai.vsyako-raznoe.ru/block.php on line 3
+[17-Apr-2018 10:23:25 Europe/Moscow] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 4
+[17-Apr-2018 10:23:25 Europe/Moscow] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 188
+[17-Apr-2018 10:23:25 Europe/Moscow] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 191
+[17-Apr-2018 10:23:25 Europe/Moscow] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 193
+[17-Apr-2018 10:23:27 Europe/Moscow] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'dubai'@'localhost' (using password: YES) in /var/www/dubai.vsyako-raznoe.ru/block.php on line 3
+[17-Apr-2018 10:23:27 Europe/Moscow] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 4
+[17-Apr-2018 10:23:27 Europe/Moscow] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 188
+[17-Apr-2018 10:23:27 Europe/Moscow] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 191
+[17-Apr-2018 10:23:27 Europe/Moscow] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 193
+[17-Apr-2018 10:23:29 Europe/Moscow] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'dubai'@'localhost' (using password: YES) in /var/www/dubai.vsyako-raznoe.ru/block.php on line 3
+[17-Apr-2018 10:23:29 Europe/Moscow] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 4
+[17-Apr-2018 10:23:29 Europe/Moscow] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 188
+[17-Apr-2018 10:23:29 Europe/Moscow] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 191
+[17-Apr-2018 10:23:29 Europe/Moscow] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 193
+[17-Apr-2018 10:23:31 Europe/Moscow] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'dubai'@'localhost' (using password: YES) in /var/www/dubai.vsyako-raznoe.ru/block.php on line 3
+[17-Apr-2018 10:23:31 Europe/Moscow] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 4
+[17-Apr-2018 10:23:31 Europe/Moscow] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 188
+[17-Apr-2018 10:23:31 Europe/Moscow] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 191
+[17-Apr-2018 10:23:31 Europe/Moscow] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 193
+[17-Apr-2018 10:23:33 Europe/Moscow] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'dubai'@'localhost' (using password: YES) in /var/www/dubai.vsyako-raznoe.ru/block.php on line 3
+[17-Apr-2018 10:23:33 Europe/Moscow] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 4
+[17-Apr-2018 10:23:33 Europe/Moscow] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 188
+[17-Apr-2018 10:23:33 Europe/Moscow] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 191
+[17-Apr-2018 10:23:33 Europe/Moscow] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 193
+[17-Apr-2018 10:23:35 Europe/Moscow] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'dubai'@'localhost' (using password: YES) in /var/www/dubai.vsyako-raznoe.ru/block.php on line 3
+[17-Apr-2018 10:23:35 Europe/Moscow] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 4
+[17-Apr-2018 10:23:35 Europe/Moscow] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 188
+[17-Apr-2018 10:23:35 Europe/Moscow] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 191
+[17-Apr-2018 10:23:35 Europe/Moscow] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 193
+[17-Apr-2018 10:23:37 Europe/Moscow] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'dubai'@'localhost' (using password: YES) in /var/www/dubai.vsyako-raznoe.ru/block.php on line 3
+[17-Apr-2018 10:23:37 Europe/Moscow] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 4
+[17-Apr-2018 10:23:37 Europe/Moscow] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 188
+[17-Apr-2018 10:23:37 Europe/Moscow] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 191
+[17-Apr-2018 10:23:37 Europe/Moscow] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 193
+[17-Apr-2018 10:23:39 Europe/Moscow] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'dubai'@'localhost' (using password: YES) in /var/www/dubai.vsyako-raznoe.ru/block.php on line 3
+[17-Apr-2018 10:23:39 Europe/Moscow] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 4
+[17-Apr-2018 10:23:39 Europe/Moscow] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 188
+[17-Apr-2018 10:23:39 Europe/Moscow] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 191
+[17-Apr-2018 10:23:39 Europe/Moscow] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 193
+[17-Apr-2018 10:23:41 Europe/Moscow] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'dubai'@'localhost' (using password: YES) in /var/www/dubai.vsyako-raznoe.ru/block.php on line 3
+[17-Apr-2018 10:23:41 Europe/Moscow] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 4
+[17-Apr-2018 10:23:41 Europe/Moscow] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 188
+[17-Apr-2018 10:23:41 Europe/Moscow] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 191
+[17-Apr-2018 10:23:41 Europe/Moscow] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 193
+[17-Apr-2018 10:23:43 Europe/Moscow] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'dubai'@'localhost' (using password: YES) in /var/www/dubai.vsyako-raznoe.ru/block.php on line 3
+[17-Apr-2018 10:23:43 Europe/Moscow] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 4
+[17-Apr-2018 10:23:43 Europe/Moscow] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 188
+[17-Apr-2018 10:23:43 Europe/Moscow] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 191
+[17-Apr-2018 10:23:43 Europe/Moscow] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 193
+[17-Apr-2018 10:23:45 Europe/Moscow] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'dubai'@'localhost' (using password: YES) in /var/www/dubai.vsyako-raznoe.ru/block.php on line 3
+[17-Apr-2018 10:23:45 Europe/Moscow] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 4
+[17-Apr-2018 10:23:45 Europe/Moscow] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 188
+[17-Apr-2018 10:23:45 Europe/Moscow] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 191
+[17-Apr-2018 10:23:45 Europe/Moscow] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 193
+[17-Apr-2018 10:23:47 Europe/Moscow] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'dubai'@'localhost' (using password: YES) in /var/www/dubai.vsyako-raznoe.ru/block.php on line 3
+[17-Apr-2018 10:23:47 Europe/Moscow] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 4
+[17-Apr-2018 10:23:47 Europe/Moscow] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 188
+[17-Apr-2018 10:23:47 Europe/Moscow] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 191
+[17-Apr-2018 10:23:47 Europe/Moscow] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 193
+[17-Apr-2018 10:23:49 Europe/Moscow] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'dubai'@'localhost' (using password: YES) in /var/www/dubai.vsyako-raznoe.ru/block.php on line 3
+[17-Apr-2018 10:23:49 Europe/Moscow] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 4
+[17-Apr-2018 10:23:49 Europe/Moscow] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 188
+[17-Apr-2018 10:23:49 Europe/Moscow] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 191
+[17-Apr-2018 10:23:49 Europe/Moscow] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 193
+[17-Apr-2018 10:23:51 Europe/Moscow] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'dubai'@'localhost' (using password: YES) in /var/www/dubai.vsyako-raznoe.ru/block.php on line 3
+[17-Apr-2018 10:23:51 Europe/Moscow] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 4
+[17-Apr-2018 10:23:51 Europe/Moscow] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 188
+[17-Apr-2018 10:23:51 Europe/Moscow] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 191
+[17-Apr-2018 10:23:51 Europe/Moscow] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 193
+[17-Apr-2018 10:23:53 Europe/Moscow] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'dubai'@'localhost' (using password: YES) in /var/www/dubai.vsyako-raznoe.ru/block.php on line 3
+[17-Apr-2018 10:23:53 Europe/Moscow] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 4
+[17-Apr-2018 10:23:53 Europe/Moscow] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 188
+[17-Apr-2018 10:23:53 Europe/Moscow] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 191
+[17-Apr-2018 10:23:53 Europe/Moscow] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 193
+[17-Apr-2018 10:23:55 Europe/Moscow] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'dubai'@'localhost' (using password: YES) in /var/www/dubai.vsyako-raznoe.ru/block.php on line 3
+[17-Apr-2018 10:23:55 Europe/Moscow] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 4
+[17-Apr-2018 10:23:55 Europe/Moscow] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 188
+[17-Apr-2018 10:23:55 Europe/Moscow] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 191
+[17-Apr-2018 10:23:55 Europe/Moscow] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 193
+[17-Apr-2018 10:23:57 Europe/Moscow] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'dubai'@'localhost' (using password: YES) in /var/www/dubai.vsyako-raznoe.ru/block.php on line 3
+[17-Apr-2018 10:23:57 Europe/Moscow] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 4
+[17-Apr-2018 10:23:57 Europe/Moscow] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 188
+[17-Apr-2018 10:23:57 Europe/Moscow] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 191
+[17-Apr-2018 10:23:57 Europe/Moscow] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 193
+[17-Apr-2018 10:23:59 Europe/Moscow] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'dubai'@'localhost' (using password: YES) in /var/www/dubai.vsyako-raznoe.ru/block.php on line 3
+[17-Apr-2018 10:23:59 Europe/Moscow] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 4
+[17-Apr-2018 10:23:59 Europe/Moscow] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 188
+[17-Apr-2018 10:23:59 Europe/Moscow] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 191
+[17-Apr-2018 10:23:59 Europe/Moscow] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 193
+[17-Apr-2018 10:24:01 Europe/Moscow] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'dubai'@'localhost' (using password: YES) in /var/www/dubai.vsyako-raznoe.ru/block.php on line 3
+[17-Apr-2018 10:24:01 Europe/Moscow] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 4
+[17-Apr-2018 10:24:01 Europe/Moscow] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 188
+[17-Apr-2018 10:24:01 Europe/Moscow] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 191
+[17-Apr-2018 10:24:01 Europe/Moscow] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 193
+[17-Apr-2018 10:24:03 Europe/Moscow] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'dubai'@'localhost' (using password: YES) in /var/www/dubai.vsyako-raznoe.ru/block.php on line 3
+[17-Apr-2018 10:24:03 Europe/Moscow] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 4
+[17-Apr-2018 10:24:03 Europe/Moscow] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 188
+[17-Apr-2018 10:24:03 Europe/Moscow] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 191
+[17-Apr-2018 10:24:03 Europe/Moscow] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 193
+[17-Apr-2018 11:21:02 Europe/Moscow] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'dubai'@'localhost' (using password: YES) in /var/www/dubai.vsyako-raznoe.ru/block.php on line 3
+[17-Apr-2018 11:21:02 Europe/Moscow] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 4
+[17-Apr-2018 11:21:02 Europe/Moscow] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 188
+[17-Apr-2018 11:21:02 Europe/Moscow] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 191
+[17-Apr-2018 11:21:02 Europe/Moscow] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 193
+[17-Apr-2018 16:19:34 Europe/Moscow] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'dubai'@'localhost' (using password: YES) in /var/www/dubai.vsyako-raznoe.ru/block.php on line 3
+[17-Apr-2018 16:19:34 Europe/Moscow] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 4
+[17-Apr-2018 16:19:34 Europe/Moscow] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 188
+[17-Apr-2018 16:19:34 Europe/Moscow] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 191
+[17-Apr-2018 16:19:34 Europe/Moscow] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 193
+[17-Apr-2018 17:35:21 Europe/Moscow] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'dubai'@'localhost' (using password: YES) in /var/www/dubai.vsyako-raznoe.ru/block.php on line 3
+[17-Apr-2018 17:35:21 Europe/Moscow] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 4
+[17-Apr-2018 17:35:21 Europe/Moscow] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 188
+[17-Apr-2018 17:35:21 Europe/Moscow] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 191
+[17-Apr-2018 17:35:21 Europe/Moscow] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 193
+[17-Apr-2018 18:51:08 Europe/Moscow] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'dubai'@'localhost' (using password: YES) in /var/www/dubai.vsyako-raznoe.ru/block.php on line 3
+[17-Apr-2018 18:51:08 Europe/Moscow] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 4
+[17-Apr-2018 18:51:08 Europe/Moscow] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 188
+[17-Apr-2018 18:51:08 Europe/Moscow] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 191
+[17-Apr-2018 18:51:08 Europe/Moscow] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 193
+[19-Apr-2018 19:18:45 Europe/Moscow] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'dubai'@'localhost' (using password: YES) in /var/www/dubai.vsyako-raznoe.ru/block.php on line 3
+[19-Apr-2018 19:18:45 Europe/Moscow] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 4
+[19-Apr-2018 19:18:45 Europe/Moscow] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 188
+[19-Apr-2018 19:18:45 Europe/Moscow] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 191
+[19-Apr-2018 19:18:45 Europe/Moscow] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 193
+[20-Apr-2018 20:40:15 Europe/Moscow] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'dubai'@'localhost' (using password: YES) in /var/www/dubai.vsyako-raznoe.ru/block.php on line 3
+[20-Apr-2018 20:40:15 Europe/Moscow] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 4
+[20-Apr-2018 20:40:15 Europe/Moscow] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 188
+[20-Apr-2018 20:40:15 Europe/Moscow] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 191
+[20-Apr-2018 20:40:15 Europe/Moscow] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 193
+[21-Apr-2018 19:37:27 Europe/Moscow] PHP Warning:  require_once(/home/apapche/www/viperotic.ru/core/db.php): failed to open stream: No such file or directory in /var/www/viperotic.ru/random/vk.php on line 8
+[21-Apr-2018 19:37:27 Europe/Moscow] PHP Fatal error:  require_once(): Failed opening required '/home/apapche/www/viperotic.ru/core/db.php' (include_path='.:/usr/share/pear:/usr/share/php') in /var/www/viperotic.ru/random/vk.php on line 8
+[23-Apr-2018 04:11:59 Europe/Moscow] PHP Warning:  require_once(/home/apapche/www/viperotic.ru/core/db.php): failed to open stream: No such file or directory in /var/www/viperotic.ru/random/vk.php on line 8
+[23-Apr-2018 04:11:59 Europe/Moscow] PHP Fatal error:  require_once(): Failed opening required '/home/apapche/www/viperotic.ru/core/db.php' (include_path='.:/usr/share/pear:/usr/share/php') in /var/www/viperotic.ru/random/vk.php on line 8
+[23-Apr-2018 09:04:50 Europe/Moscow] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'dubai'@'localhost' (using password: YES) in /var/www/dubai.vsyako-raznoe.ru/block.php on line 3
+[23-Apr-2018 09:04:50 Europe/Moscow] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 4
+[23-Apr-2018 09:04:50 Europe/Moscow] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 188
+[23-Apr-2018 09:04:50 Europe/Moscow] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 191
+[23-Apr-2018 09:04:50 Europe/Moscow] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /var/www/dubai.vsyako-raznoe.ru/block.php on line 193
+[23-Apr-2018 18:11:07 Europe/Moscow] PHP Warning:  require_once(/home/apapche/www/viperotic.ru/core/db.php): failed to open stream: No such file or directory in /var/www/viperotic.ru/random/vk.php on line 8
+[23-Apr-2018 18:11:07 Europe/Moscow] PHP Fatal error:  require_once(): Failed opening required '/home/apapche/www/viperotic.ru/core/db.php' (include_path='.:/usr/share/pear:/usr/share/php') in /var/www/viperotic.ru/random/vk.php on line 8
+[24-Apr-2018 06:26:16 Europe/Moscow] PHP Warning:  require_once(/home/apapche/www/viperotic.ru/core/db.php): failed to open stream: No such file or directory in /var/www/viperotic.ru/random/vk.php on line 8
+[24-Apr-2018 06:26:16 Europe/Moscow] PHP Fatal error:  require_once(): Failed opening required '/home/apapche/www/viperotic.ru/core/db.php' (include_path='.:/usr/share/pear:/usr/share/php') in /var/www/viperotic.ru/random/vk.php on line 8

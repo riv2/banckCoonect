@@ -1,0 +1,45 @@
+.tRichmediaWindow {
+position:fixed;
+top:20%;
+left:30%;
+width:640px;
+height:480px;
+border:3px solid rgba(0,0,0,0.2);
+z-index:2000;
+}
+
+.tRichmediaClose {
+position:absolute;
+top:-10px;
+right:-10px;
+width:20px;
+height:20px;
+background-image: url(close.png);
+z-index:2001;
+cursor:pointer;
+}
+
+.tRichmediaImg {
+width:640px!important; 
+height:480px!important;
+}
+
+
+ .tRichmediaSwfConteiner {
+position:relative;
+ }
+ 
+.tRichmediaSwfClick {
+	 cursor:pointer;
+	 position:absolute;
+	 top:0px;
+	 left:0px;
+	 width:100%;
+	 height:100%;
+	 z-index:1000;
+}
+
+.tRichmediaSwfObject {
+	 width:100%;
+	 height:100%;
+}

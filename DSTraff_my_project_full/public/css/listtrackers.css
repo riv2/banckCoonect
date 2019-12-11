@@ -1,0 +1,97 @@
+.trackerCode {
+display:none;
+background:rgba(249,154,38,0.7)!important;
+}
+
+.buffered {
+background:green;
+color:white;
+}
+
+.showCode {
+text-align:center;
+padding:3px;
+border:1px dotted rgba(249,154,38,0.7);
+background:rgba(249,154,38,0.7);
+color:white;
+cursor:pointer;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+}
+
+.showCode:hover {
+background:white;
+color:rgba(249,154,38,0.7);
+}
+
+
+.trackerCodeItem {
+background:rgba(249,154,38,0.7);
+text-align:left;
+padding:5px;
+cursor:text;
+color:white;
+font-size:13px;
+ line-height: 1.5;
+}
+
+.codeHeader {
+  cursor:default;
+  background-color:rgba(0,255,0,0.2);
+  -webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+padding:3px;
+
+}
+
+.w105 {
+width:105px;
+}
+
+.w90 {
+width:60px;
+}
+
+.center {
+text-align:center!important;
+}
+
+.tEditBotton:hover::after  {
+ content: "Редактировать";
+ color:#fff;
+ background:rgba(249,154,38,0.7);
+ padding:4px;
+ position:absolute;
+ top:-30px;
+ left:-48px;
+ -webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+ }
+.tDelBotton:hover::after  {
+ content: "Удалить";
+ color:#fff;
+ background:rgba(249,154,38,0.7);
+ padding:4px;
+ position:absolute;
+ top:-30px;
+ left:-26px;
+ -webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+ }
+.tCloneBotton:hover::after  {
+ content: "Клонировать";
+ color:#fff;
+ background:rgba(249,154,38,0.7);
+ padding:4px;
+ position:absolute;
+ top:-30px;
+ left:-42px;
+ -webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+ }
+

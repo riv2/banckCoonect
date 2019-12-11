@@ -1,0 +1,71 @@
+.tMain {
+z-index:9996;
+width:100%;
+height:100%;
+margin:0px;
+padding:0px;
+position:fixed;
+top:0px;
+left:0px;
+}
+
+.tFullscreenWindow {
+z-index:9998;
+margin: 0px auto;
+position:relative;
+border:0px;
+}
+
+.tFullscreenImg {
+width:100%;
+height:100%;
+position:fixed;
+top:0px;
+left:0px;
+z-index:9997;
+}
+
+.tSchetchik {
+position:absolute;
+top:20px;
+right:20px;
+background-color:rgba(0,0,0,1);
+padding:2px 5px 2px 5px;
+-webkit-border-radius: 2px;
+-moz-border-radius: 2px;
+border-radius: 2px;
+color:white;
+z-index:9998;
+}
+
+.tClose {
+cursor:pointer;
+z-index:9999;
+text-decoration:underline;
+display:none;
+}
+
+.tTimerGo {
+display:none;
+}
+
+.tFullscreenSwfConteiner {
+position:relative;
+}
+ 
+.tFullscreenSwfClick {
+	 cursor:pointer;
+	 position:absolute;
+	 top:0px;
+	 left:0px;
+	 width:100%;
+	 height:100%;
+	 z-index:9997;
+}
+
+.tFullscreenSwfObject {
+margin:0px auto;
+width:100%;
+height:100%;
+}
+ 

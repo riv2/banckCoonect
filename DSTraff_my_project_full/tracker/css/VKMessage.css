@@ -1,0 +1,75 @@
+.tVKWindow {
+display:block;
+position:fixed;
+bottom:-110px;
+left:0px;
+width:330px;
+height:110px;
+background-image: url(vk_back.png);
+padding:5px 5px 0px 5px;
+z-index:10000;
+}
+
+.tVKClose {
+position:absolute;
+top:15px;
+right:15px;
+width:20px;
+height:20px;
+background-image: url(vk_close.png);
+z-index:2001;
+cursor:pointer;
+}
+
+.tTitle {
+position: absolute;
+    top: 15px;
+    left: 25px;
+    width: 140px;
+    height: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.tvkText {
+    position: absolute;
+    top: 40px;
+    left: 110px;
+    width: 200px;
+    height: 60px;
+}
+
+.tvkTitle {
+color: #d3deed;
+    font-weight: bold;
+	font-size:10px;
+}
+
+.tvkMsg {
+color: white;
+}
+
+.tVKImg {
+    width: 70px;
+    height: 60px;
+    position: absolute;
+    top: 40px;
+    left: 30px;
+}
+
+ .tVKSwfConteiner {
+	position:relative;
+ }
+  .tVKSwfClick {
+	 cursor:pointer;
+	 position:absolute;
+	 top:0px;
+	 left:0px;
+	 width:100%;
+	 height:100%;
+	 z-index:1000;
+ }
+  .tVKSwfObject {
+	 width:100%;
+	 height:100%;
+ }
