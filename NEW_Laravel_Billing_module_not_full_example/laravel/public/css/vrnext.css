@@ -1,0 +1,170 @@
+.signup {
+	background: rgba(0, 0, 0, 0.4); 
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+
+.signup .container {
+	padding-top: 10%; 
+	padding-bottom: 20%;
+}
+
+.signup .logo {
+	height: 50px; 
+	margin-bottom: 15px; 
+	margin-top: 10px;
+}
+
+.signup .goto {
+	font-size: 14px; 
+	text-align: center;
+	font-weight: 500;
+}
+
+.signup .goto a {
+	font-weight: 600;
+	color: black;
+}
+
+.form-group.vrnext {
+	font-size: 1.5rem; 
+	height: 90%;
+}
+
+.form-control.vrnext {
+	font-size: 1.5rem; 
+	height: 38px;
+}
+
+.shadow {
+	box-shadow: 0px 5px 7px rgba(0,0,0,.5);
+}
+
+.vr-button {
+  display: inline-block;
+  position: relative;
+  background: none;
+  border: none;
+  color: #000;
+  font-size: 18px;
+  cursor: pointer;
+  margin: none;
+  margin-left: -2px;
+  background: rgba(0,0,0,0.00);
+}
+
+.vr-button.black {
+  margin: 0;
+  padding: 1%;
+  text-align:center;
+  padding: 10px;
+  display:block;
+  height:auto;
+  width: 100%;
+  cursor:pointer;
+  font-size:16px;
+  color: #fff;
+  font-weight: 600;
+  background: #000;
+  font-size: 1.5rem;
+  width: 30%;
+  margin: 2%;
+}
+
+.form-custom-material {
+}
+
+.form-custom-material fieldset {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.form-custom-material .form-group {
+	margin-bottom: 8px;
+}
+
+.form-custom-material .form-group label {
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 20px;
+}
+
+.form-custom-material .divider {
+	border-bottom: 1px solid #ccc;
+	padding: 0px 20px;
+	margin: 4px 0px 16px 0px;
+}
+.required {
+	color: red;
+	font-weight: 500;
+	font-size: 8px;
+    vertical-align: top;
+    padding-top: 4px;
+	padding-left: 2px;
+}
+
+/* Drag&Drop ANY platform BEGIN */
+.image-upload {
+	width: 196px;
+	height: 158px;
+}
+.image-upload .image-description {
+	font-size: 16px;
+	line-height: 20px;
+	text-align: top;
+	height: 20px;
+	margin-bottom: 5px;
+}
+.image-upload .info {
+	color: #31708f;
+	margin-right: 4px;
+}
+.image-upload .drop-area {
+	border: 2px dashed #ccc;
+	border-radius: 2px;
+	width: 196px;
+	height: 100px;
+}
+.image-upload .drop-area.highlight {
+	border-color: purple;
+}
+.image-upload .image-clear {
+	float: right;
+	vertical-align: top;
+	font-size: 16px;
+	padding-right: 2px;
+}
+.image-upload .image-clear:hover {
+	color: red;
+	cursor: pointer;
+}
+.image-upload .image-button {
+	margin-top: 2px;
+}
+.image-upload .image-thumb {
+	width: 196px;
+	height: 100px;
+	text-align: center;
+	line-height: 100px;
+	font-size: 40px;
+}
+.image-upload .image-input {
+	display: none !important;
+}
+.image-upload .image-preview {
+	max-width: 192px;
+    max-height: 96px;
+	padding: 1px;
+}
+.image-upload .upload-progress {
+	height: 100%;
+	padding-top: 40px;
+}
+.image-upload .upload-progress .progress {
+	width: calc(100% - 4px);
+}
+/* Drag&Drop ANY platform END */
+

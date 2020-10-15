@@ -1,0 +1,50 @@
+@media only screen and (min-width: 992px) {
+	body {
+		min-width: 1280px;
+		overflow-x: auto;
+	}
+}
+
+#tree {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.table td {
+	vertical-align: middle !important;
+}
+
+.form-control.readonly {
+	background-color: #eee;
+    opacity: 1;
+	cursor: pointer;
+}
+
+.summary-header {
+	padding-bottom: 0px;
+}
+
+.summary-title {
+	margin-bottom: 0px;
+}
+
+.summary-plan {
+}
+
+.summary-label {
+	font-size: 16px;
+    font-weight: 400;
+}
+
+.summary-value {
+	font-size: 20px;
+    font-weight: 500;
+}
+
+.summary-value .fa {
+    font-weight: 400;
+}

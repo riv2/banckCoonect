@@ -1,0 +1,74 @@
+Пример запроса: 
+	http://{HOST}/json/catalogues/materials/full/?uniq[]=crmcct_daedd41fa306f2d58dbb353fd4bfae84&uniq[]=crmcct_6ebe974567713fa2a4620695013e72a1&limit=1&offset=2&date_deleted=1&seporator=or&order=uniq%desc=1&fileds=uniq,date_deleted
+
+Где: 
+	/json/ - тип ответа.
+	/catalogues/materials/full/ - наименование таблицы или метода.
+
+Пример вызова метода: 
+	/catalogues/materials/full/ - в данном случае - метод - catalogues_materials_full - который выбирает сразу из 3х таблиц: _catalogues_materials, _catalogues_materials_references, _catalogues_resources
+
+Пример вызова таблицы: 
+	/billing_balance/
+	/billing_currences/
+	/billing_discounts/
+	/billing_gateways/
+	/billing_logs/
+	/billing_products/
+	/billing_products_cost/
+	/billing_transactions/
+	/catalogues/
+	/catalogues_groups/
+	/catalogues_hierarchy/
+	/catalogues_materials/
+	/catalogues_materials_references/
+	/catalogues_products/
+	/catalogues_products_groups/
+	/catalogues_properties/
+	/catalogues_resources/
+	/companies/
+	/companies_branches/
+	/companies_catalogues/
+	/companies_members/
+	/companies_store/
+	/contact_info/
+	/members/
+	/members_catalogues/
+	/members_devices/
+	/members_profiles/
+	/members_sessions/
+	/members_settings/
+
+Входящие параметры для метода catalogues_materials_full:
+	Поиск по полям:
+		uniq, diffuse, specular, reflection, ior, material_type, date_modified, date_deleted - Поиск может быть одиночным или в виде массива или и то и то.
+	Пример вызова массива: 
+		uniq[]=crmcct_daedd41fa306f2d58dbb353fd4bfae84&uniq[]=crmcct_6ebe974567713fa2a4620695013e72a1
+	Пример вызова одиночного параметра: 
+        uniq=crmcct_daedd41fa306f2d58dbb353fd4bfae84
+	Дополнительные поля: 
+		offset, limit, seporator, order, desc, fileds
+			offset: Отступ от первого элемента на N.
+			limit: Количество выводимых элементов - по умолчанию 100.
+			seporator: разделитель между поисковыми запросами - по умолчанию стоит and. 
+			order: сортировка по полю.
+			desc: порядок сортировки = по умолчанию стоит ASC - при передаче параметра desc - передохит в DESC.
+			fileds: список возвращаемых полей через запятую, по умолчанию стоят все поля.
+			
+Ответ: 
+	catalogues_materials_full:
+		_catalogues_materials: все поля таблицы либо те которые указаны в переменой запроса fileds. 
+		_catalogues_materials_references: все поля таблицы либо те которые указаны в переменой запроса fileds.  
+		_catalogues_resources: все поля таблицы либо те которые указаны в переменой запроса fileds. 
+		
+По такому же принципу работает выборка по таблицам.
+
+
+
+		
+
+
+
+
+
+
