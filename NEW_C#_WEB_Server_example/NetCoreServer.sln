@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HttpClient", "HttpClient\Ht
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HttpsClient", "HttpsClient\HttpsClient.csproj", "{1678A84A-44B9-4935-AB46-A7E1FCC15ECA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtlasServer", "AtlasServer\AtlasServer.csproj", "{5B7ADCB4-CB71-4D81-9A0A-BF34A68C4E61}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AtlasServer", "AtlasServer\AtlasServer.csproj", "{5B7ADCB4-CB71-4D81-9A0A-BF34A68C4E61}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

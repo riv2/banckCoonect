@@ -5,17 +5,19 @@ namespace AtlasServer.RestAPI
 {
     public class PlayerConfig : RestApiHandler
     {
-        override public string Get(string URI)
+        public override string Get(string URI)
         {
-            string testJsonConfig = "{\"button_help\":\"main_control_child_block_left\",\"button_calc\":\"main_control_child_block_right\",\"screen_shot\":\"main_control_child_block_right\",\"button_customize\":\"main_control_child_block_left\", \"full_screen\":\"main_control_child_block_right\"}";
+            string query = this.getQueryStringFromURI(URI);
 
-            dynamic responseObj_Config = JsonConvert.DeserializeObject(testJsonConfig);
+            String response_player_config = this.doRequest("player_config", query);
+
+            dynamic responseObj_player_config = JsonConvert.DeserializeObject(response_player_config);
 
             ResponseObj responseObj = new ResponseObj();
 
             responseObj.error = false;
             responseObj.msg = "";
-            responseObj.data_array = responseObj_Config;
+            responseObj.data_array = responseObj_player_config._player_config;
 
             string responseJson = JsonConvert.SerializeObject(responseObj);
 

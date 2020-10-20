@@ -24,7 +24,7 @@ namespace AtlasServer.RestAPI
                 request_catalogues_groups = request_catalogues_groups + "&hierarchy_uniq[]=" + item.uniq;
             }
 
-            request_catalogues_groups = request_catalogues_groups.Substring(1);
+       //     request_catalogues_groups = request_catalogues_groups.Substring(1);
 
             String response_catalogues_groups = this.doRequest("catalogues_groups", request_catalogues_groups);
 
