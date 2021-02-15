@@ -1,0 +1,47 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26 янв. 2021 г., 11:40:15
+    Author     : riv
+*/
+
+.sorter-arrow:after {
+        opacity: 0.2;
+        content: "\e150";
+        font-family: 'Glyphicons Halflings';
+        cursor:pointer;
+    } 
+    
+.tablesorter .filtered {
+    display: none;
+}
+
+.tablesorter-filter {
+        display: block;
+    width: 100%;
+    height: 36px;
+    padding: 6px 12px;
+    font-size: 16px;
+    line-height: 1.42857143;
+    color: #555555;
+    background-color: #ffffff;
+    background-image: none;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+    -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    -webkit-transition: all border-color ease-in-out .15s, box-shadow ease-in-out .15s ease-out;
+    -moz-transition: all border-color ease-in-out .15s, box-shadow ease-in-out .15s ease-out;
+    -o-transition: all border-color ease-in-out .15s, box-shadow ease-in-out .15s ease-out;
+    transition: all border-color ease-in-out .15s, box-shadow ease-in-out .15s ease-out;
+    
+    
+    
+}

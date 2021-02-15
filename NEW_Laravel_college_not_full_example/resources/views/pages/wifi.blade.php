@@ -1,0 +1,1 @@
+@include('mobile.pages.wifi')
