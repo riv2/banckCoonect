@@ -1,4 +1,4 @@
-                          Данный репозиторий предназначен - только для показа моего кода для работодателей как пример. 
+          Данный репозиторий предназначен - только для показа моего кода для работодателей как пример. 
 
 
 От 02.06.2021:
@@ -13,6 +13,7 @@ ACTUAL_NEW_Yii2_example - ример реализации на Yii2 framework. (
 - Пример моего кода из ACTUAL_NEW_Yii2_example: https://github.com/riv2/Examples_codes_not_full/blob/master/ACTUAL_NEW_Yii2_example/models/pool/LogPriceCalculation.php (Тут лучше спрашивать у меня)
 
 
+
 От 01.01.2020:
 
 - MIDDLE_C#_WEB_Server_example - Пример реализации REST WEB сервера на C#. 
@@ -20,6 +21,7 @@ ACTUAL_NEW_Yii2_example - ример реализации на Yii2 framework. (
 - MIDDLE_JAVA_WEB_Server_example - Пример реализации REST WEB сервера на JAVA. 
 - MIDDLE_JS_Toolbar_menu_player_threejs_module_not_full_example - Пример реализации модуля контрольной панели на JavaScript для threeJS плеера.
 - OLD_Paypal_module_Symphony - Пример реализации модуля платежей Paypal для Symphony framework.
+
 
 
 До 01.01.2020:
