@@ -1,0 +1,121 @@
+<?php
+
+namespace {{ namespace }};
+
+use {{ namespacedModel }};
+use {{ rootNamespace }}Http\Controllers\Controller;
+use Illuminate\Http\Request;
+
+class {{ class }} extends Controller
+{
+    /**
+     * Список элементов
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function index()
+    {
+        $collection = {{ model }}::query()
+            ->paginate();
+
+        return view('{{ viewFolderVariable }}.index', [
+            'collection' => $collection,
+        ]);
+    }
+
+    /**
+     * Форма добавления новой записи
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function create()
+    {
+        return view('{{ viewFolderVariable }}.create');
+    }
+
+    /**
+     * Создание нового элемента
+     * Метод отправки: POST
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @return \Illuminate\Http\Response
+     */
+    public function store(Request $request)
+    {
+        $request->validate([
+            'element' => 'required',
+        ]);
+
+        ${{ modelVariable }} = new {{ model }}();
+        ${{ modelVariable }}->element = $request->get('element');
+        ${{ modelVariable }}->save();
+
+        return redirect()
+            ->route('{{ viewFolderVariable }}.show', ${{ modelVariable }})
+            ->withSuccess(__('Запись успешно создана!'));
+    }
+
+    /**
+     * Страница просмотра элемента
+     *
+     * @param  \{{ namespacedModel }}  ${{ modelVariable }}
+     * @return \Illuminate\Http\Response
+     */
+    public function show({{ model }} ${{ modelVariable }})
+    {
+        return view('{{ viewFolderVariable }}.show', [
+            '{{ modelVariable }}' => ${{ modelVariable }},
+        ]);
+    }
+
+    /**
+     * Страница редактирования элемента
+     *
+     * @param  \{{ namespacedModel }}  ${{ modelVariable }}
+     * @return \Illuminate\Http\Response
+     */
+    public function edit({{ model }} ${{ modelVariable }})
+    {
+        return view('{{ viewFolderVariable }}.edit', [
+            '{{ modelVariable }}' => ${{ modelVariable }},
+        ]);
+    }
+
+    /**
+     * Сохранение элемента
+     * Метод отправки: PUT
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @param  \{{ namespacedModel }}  ${{ modelVariable }}
+     * @return \Illuminate\Http\Response
+     */
+    public function update(Request $request, {{ model }} ${{ modelVariable }})
+    {
+        $request->validate([
+            'element' => 'required',
+        ]);
+
+        ${{ modelVariable }}->element = $request->get('element');
+        ${{ modelVariable }}->save();
+
+        return redirect()
+            ->route('{{ viewFolderVariable }}.show', ${{ modelVariable }})
+            ->withSuccess(__('Запись успешно сохранена!'));
+    }
+
+    /**
+     * Удаление элемента
+     * Метод отправки: DELETE
+     *
+     * @param  \{{ namespacedModel }}  ${{ modelVariable }}
+     * @return \Illuminate\Http\Response
+     */
+    public function destroy({{ model }} ${{ modelVariable }})
+    {
+        // ${{ modelVariable }}->delete();
+
+        // return redirect()
+        //    ->route('{{ viewFolderVariable }}.show', ${{ modelVariable }})
+        //    ->withSuccess(__('Запись успешно удалена!'));
+    }
+}

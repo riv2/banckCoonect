@@ -1,0 +1,136 @@
+$font-stack: Tahoma, sans-serif;
+
+@import "~bootstrap/scss/bootstrap";
+@import '~components-font-awesome/scss/fa-solid.scss';
+@import '~components-font-awesome/scss/fontawesome.scss';
+
+body {
+  font-family: $font-stack;
+}
+#testing-iframe, #parsing-results {
+  width: 100%;
+  height: calc(100% - 57px);;
+  position: fixed;
+  left: 0;
+  top: 57px;
+  border: 0;
+}
+#parsing-results {
+  background-color: white;
+  z-index: 9999;
+  display: none;
+  overflow-y: scroll;
+  overflow-x: scroll;
+}
+.masquerade {
+  font-family: $font-stack;
+  font-size: 14px;
+
+  .card-header {
+    padding: 0.2rem 0.75rem;
+  }
+  .card-body {
+    padding: 0;
+  }
+  .card-body .form-group {
+    margin: 0.5rem 0.75rem;
+  }
+  .md-accordion .card .fa-angle-down {
+    float: right;
+    margin-top: 6px;
+  }
+  .md-accordion .card .card-header:not(.collapsed) .rotate-icon {
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+  .custom-select {
+    -webkit-appearance: none;
+  }
+  .msk-grp {
+  }
+  .msk-grp a.card-header {
+    font-size: 20px;
+    display: block;
+  }
+  .list-group-item {
+    padding: 0.5rem 0.75rem;
+  }
+
+  .btn-xs {
+    padding: .15rem .25rem;
+    font-size: .8rem;
+    line-height: 1.1rem;
+    border-radius: .2rem;
+  }
+
+  .msk-add-pane {
+    padding: .75rem .5rem .75rem .5rem;
+
+  }
+
+  .msk-fields {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .msk-field {
+
+    position: relative;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    padding: .25rem .5rem .75rem .5rem;
+
+    input {
+      flex:1;
+      font-size: 80%;
+      font-family: sans-serif;
+    }
+    .input-group-text {
+      font-size: 80%;
+    }
+
+    .msk-field-name{
+      font-weight: bolder;
+    }
+
+    .msk-field-mod {
+      position: absolute;
+      right: 0.75rem;
+      top:  0.25rem;
+      display: none;
+      z-index: 1000;
+      .btn {
+        background-color: white;
+      }
+      .btn-outline-secondary:hover {
+        background-color: #6c757d;
+      }
+    }
+
+    &:hover .msk-field-mod{
+      display: block;
+    }
+
+    .msk-field-mod-attr{
+      display: none;
+    }
+
+    .input-group {
+      display: flex;
+      flex: 1;
+    }
+
+  }
+
+  .msk-field-type-selector {
+    .msk-field-mod-attr {
+      display: inline-block;
+    }
+  }
+
+  .msk-add-pane {
+    background: rgba(0,0,0,.03);
+  }
+
+}

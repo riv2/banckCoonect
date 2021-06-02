@@ -1,0 +1,19 @@
+{
+  "name": "pricing-service",
+  "version": "1.0.0",
+  "description": "Демон для связи с клиентами через веб-сокеты + Демон для чтения спарсенных данных из RabbitMQ в PostgreSQL",
+  "dependencies": {
+    "amqplib": "0.5.1",
+    "child_process": "^1.0.2",
+    "md5": "^2.2.1",
+    "pg": "^6.1.4",
+    "pg-native": "^1.10.0",
+    "cookie": "^0.1.2",
+    "redis": "^0.12.1",
+    "socket.io": "^1.3.5",
+    "socket.io-client": "^1.3.5",
+    "express": "^4.14.0",
+    "node-http-proxy": "0.2.3",
+    "http-proxy": "1.16.2"
+  }
+}

@@ -1,0 +1,25 @@
+# Template PHP Build
+
+# This template allows you to validate your PHP application.
+# The workflow allows running tests and code linting on the default branch.
+
+image: php:7.4-fpm
+
+
+pipelines:
+  default:
+    - step:
+        name: Test
+        caches:
+          - composer
+        script:
+          # Install dependencies
+          - apt-get update && apt-get install -y git unzip libfreetype6-dev libjpeg62-turbo-dev libpng-dev zlib1g-dev libzip-dev
+          - docker-php-ext-configure gd --with-freetype --with-jpeg
+          - docker-php-ext-install -j$(nproc) pdo_mysql gd exif zip
+          # Download and install Composer
+          - curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
+          - composer install --no-ansi --no-interaction --no-progress
+          - cp .env.example .env
+          - php artisan key:generate
+          - php artisan test

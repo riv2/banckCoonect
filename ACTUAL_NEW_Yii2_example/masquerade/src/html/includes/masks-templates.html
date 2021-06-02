@@ -1,0 +1,264 @@
+<ul id="msk-field-template" style="display: none;">
+    <li class="msk-field">
+        <div class="msk-field-mod">
+            <a href="#" class="msk-field-mod-attr btn btn-outline-secondary btn-xs">+Атрибут</a>
+            <a href="#" class="msk-field-mod-cut btn btn-outline-secondary btn-xs">+<i class="fa fa-cut"></i></a>
+            <a href="#" class="msk-field-mod-json btn btn-outline-secondary btn-xs">+JSON</a>
+            <a href="#" class="msk-field-mod-delete btn btn-outline-secondary btn-xs">&nbsp;<i class="fa fa-trash"></i>&nbsp;</a>
+        </div>
+
+        <div class="msk-field-name m-1"></div>
+
+        <div class="form-inline">
+
+            <div class="msk-selector input-group input-group-sm"  style="display: none;">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">
+                        Селектор
+                    </span>
+                </div>
+                <input type="text" class="form-control form-control-sm" placeholder="Селектор"/>
+            </div>
+
+            <div class="msk-attribute input-group input-group-sm" style="display: none;">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">
+                        Атрибут
+                    </span>
+                </div>
+                <input type="text" class="form-control form-control-sm" placeholder="Атрибут"/>
+            </div>
+
+            <div class="msk-from input-group input-group-sm" style="display: none;">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">
+                        От
+                    </span>
+                </div>
+                <input type="text" class="form-control form-control-sm " placeholder="От"/>
+            </div>
+
+            <div class="msk-to input-group input-group-sm" style="display: none;">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">
+                        До
+                    </span>
+                </div>
+                <input type="text" class="form-control form-control-sm " placeholder="До"/>
+            </div>
+
+            <div class="msk-expr input-group input-group-sm" style="display: none;">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">
+                        RegExp
+                    </span>
+                </div>
+                <input type="text" class="form-control form-control-sm " placeholder="RegExp"/>
+            </div>
+
+            <div class="msk-replaceFrom input-group input-group-sm" style="display: none;">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">
+                        <i class="fa fa-cut"></i>
+                    </span>
+                </div>
+                <input type="text" class="form-control form-control-sm "  style="font-size: 80%;"  placeholder="Вызерать"/>
+            </div>
+
+            <div class="msk-replaceTo input-group input-group-sm" style="display: none;">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">
+                        <i class="fa fa-pencil-alt"></i>
+                    </span>
+                </div>
+                <input type="text" class="form-control form-control-sm"  style="font-size: 80%;" placeholder="Заменить на"/>
+            </div>
+
+            <div class="msk-json input-group input-group-sm" style="display: none;">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">
+                        JSON
+                    </span>
+                </div>
+                <input type="text" class="form-control form-control-sm " placeholder="JSON" />
+            </div>
+
+        </div>
+    </li>
+</ul>
+
+<ul id="msk-replaces-template" style="display: none;">
+    <li class="msk-field">
+        <div class="msk-field-mod">
+            <a href="#" class="msk-field-mod-delete btn btn-outline-secondary btn-xs">&nbsp;<i class="fa fa-trash"></i>&nbsp;</a>
+        </div>
+        <div class="form-inline">
+            <div class="msk-from input-group input-group-sm" style="display: none;">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">
+                        С
+                    </span>
+                </div>
+                <input type="text" class="form-control form-control-sm " placeholder="С"/>
+            </div>
+
+            <div class="msk-to input-group input-group-sm" style="display: none;">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">
+                        На
+                    </span>
+                </div>
+                <input type="text" class="form-control form-control-sm " placeholder="На"/>
+            </div>
+        </div>
+    </li>
+</ul>
+
+<ul id="msk-actions-template" style="display: none;">
+    <li class="msk-field">
+        <div class="msk-field-mod">
+            <a href="#" class="msk-field-mod-cut btn btn-outline-secondary btn-xs">+<i class="fa fa-cut"></i></a>
+            <a href="#" class="msk-field-mod-delete btn btn-outline-secondary btn-xs">&nbsp;<i class="fa fa-trash"></i>&nbsp;</a>
+        </div>
+        <div class="msk-field-name m-1"></div>
+	    <div class="form-inline">
+            <div class="msk-selector input-group input-group-sm"  style="display: none;">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">
+                        Селектор
+                    </span>
+                </div>
+                <input type="text" class="form-control form-control-sm" placeholder="Селектор"/>
+            </div>
+
+            <div class="msk-from input-group input-group-sm" style="display: none;">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">
+                        От
+                    </span>
+                </div>
+                <input type="text" class="form-control form-control-sm " placeholder="От"/>
+            </div>
+
+            <div class="msk-to input-group input-group-sm" style="display: none;">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">
+                        До
+                    </span>
+                </div>
+                <input type="text" class="form-control form-control-sm " placeholder="До"/>
+            </div>
+
+            <div class="msk-expr input-group input-group-sm" style="display: none;">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">
+                        RegExp
+                    </span>
+                </div>
+                <input type="text" class="form-control form-control-sm " placeholder="RegExp"/>
+            </div>
+
+		    <div class="msk-replaceFrom input-group input-group-sm" style="display: none;">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">
+                        <i class="fa fa-cut"></i>
+                    </span>
+                </div>
+                <input type="text" class="form-control form-control-sm "  style="font-size: 80%;"  placeholder="Вызерать"/>
+            </div>
+
+            <div class="msk-replaceTo input-group input-group-sm" style="display: none;">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">
+                        <i class="fa fa-pencil-alt"></i>
+                    </span>
+                </div>
+                <input type="text" class="form-control form-control-sm"  style="font-size: 80%;" placeholder="Заменить на"/>
+            </div>
+
+            <div class="msk-json input-group input-group-sm" style="display: none;">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">
+                        JSON
+                    </span>
+                </div>
+                <input type="text" class="form-control form-control-sm " placeholder="JSON" />
+            </div>
+        </div>
+    </li>
+</ul>
+
+<ul id="msk-stock-template" style="display: none;">
+    <li class="msk-field">
+        <div class="msk-field-mod">
+            <a href="#" class="msk-field-mod-in btn btn-outline-secondary btn-xs">Наличие </a>
+            <a href="#" class="msk-field-mod-out btn btn-outline-secondary btn-xs">Отсутствие</a>
+            <a href="#" class="msk-field-mod-delete btn btn-outline-secondary btn-xs">&nbsp;<i class="fa fa-trash"></i>&nbsp;</a>
+        </div>
+        <div class="msk-field-name m-1"></div>
+        <input type="checkbox" class="msk-out form-control form-control-sm " style="display: none;"/>
+
+        <div class="form-inline">
+            <div class="msk-from input-group input-group-sm" style="display: none;">
+                <div class="input-group-prepend">
+                        <span class="input-group-text">
+                            Поиск
+                        </span>
+                </div>
+                <input type="text" class="form-control form-control-sm " placeholder="От"/>
+            </div>
+            <div class="msk-selector input-group input-group-sm"  style="display: none;">
+                <div class="input-group-prepend">
+                        <span class="input-group-text">
+                            Селектор
+                        </span>
+                </div>
+                <input type="text" class="form-control form-control-sm" placeholder="Селектор"/>
+            </div>
+            <div class="msk-expr input-group input-group-sm" style="display: none;">
+                <div class="input-group-prepend">
+                        <span class="input-group-text">
+                            RegExp
+                        </span>
+                </div>
+                <input type="text" class="form-control form-control-sm " placeholder="RegExp"/>
+            </div>
+        </div>
+    </li>
+</ul>
+
+<ul id="msk-dateformat-template" style="display: none;">
+    <li class="msk-field">
+        <div class="msk-field-mod">
+            <a href="#" class="msk-field-mod-delete btn btn-outline-secondary btn-xs">&nbsp;<i class="fa fa-trash"></i>&nbsp;</a>
+        </div>
+
+        <div class="form-inline">
+
+            <div class="msk-format input-group input-group-sm" style="display: none;">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">
+                        Формат
+                    </span>
+                </div>
+                <input type="text" class="form-control form-control-sm " placeholder="DD MMM"/>
+            </div>
+
+        </div>
+    </li>
+</ul>
+
+<ul id="msk-scripts-template" style="display: none;">
+    <li class="msk-field">
+        <div class="msk-field-mod">
+            <a href="#" class="msk-field-mod-delete btn btn-outline-secondary btn-xs">&nbsp;<i class="fa fa-trash"></i>&nbsp;</a>
+        </div>
+
+        <div class="msk-script">
+
+            <textarea type="text" class="form-control form-control-sm " placeholder="resolve({});">
+            </textarea>
+
+        </div>
+    </li>
+</ul>

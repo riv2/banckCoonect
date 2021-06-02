@@ -1,0 +1,36 @@
+<% var data = {
+  title: "Маски",
+}; %>
+
+<%= _.template(require('./../includes/header.html').default)(data) %>
+<!-- Image and text -->
+<nav class="navbar navbar-light bg-light">
+  <a class="navbar-brand" href="http://pricing.vseinstrumenti.ru">
+    <img src="img/logo.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+    Masquerade
+  </a>
+</nav>
+<div class="container">
+  <div id="projects" style="display: none;">
+    <h1 class="title"></h1>
+    <%= _.template(require('./../includes/projects.html').default)(data) %>
+  </div>
+
+  <div id="masks-edit" style="display: none;">
+    <h1>
+      <a href="#" id="masks-back" style="font-size:  2.5rem;"><i class="fa fa-long-arrow-alt-left"></i> Назад</a> | <span class="title"></span>
+    </h1>
+    <div class="row">
+      <div class="col">
+        <%= _.template(require('./../includes/masks-edit.html').default)(data) %>
+      </div>
+      <div class="col">
+        <%= _.template(require('./../includes/masks-test.html').default)(data) %>
+      </div>
+    </div>
+    <%= _.template(require('./../includes/masks-templates.html').default)(data) %>
+  </div>
+
+</div>
+
+<%= _.template(require('./../includes/footer.html').default)(data) %>

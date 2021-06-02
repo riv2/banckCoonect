@@ -1,0 +1,3 @@
+[submodule "resources/js/openpixel"]
+	path = resources/js/openpixel
+	url = https://github.com/dockwa/openpixel.git

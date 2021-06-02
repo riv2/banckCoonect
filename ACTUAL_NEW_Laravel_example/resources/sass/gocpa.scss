@@ -1,0 +1,89 @@
+// $breadcrumb-bg: #fff;
+// $breadcrumb-border-radius: 0;
+// Body
+// $body-bg: #ffffff;
+
+// Typography
+// $font-size-base: 0.875rem;
+// $font-family-sans-serif: 'Roboto', sans-serif;
+$primary: #5d26d9;
+$info: #eee;
+
+$enable-rounded: true;
+$enable-shadows: true;
+$enable-gradients: true;
+
+$sizes: (
+    25: 25%,
+    50: 50%,
+    75: 75%,
+    100: 100%,
+    auto: auto
+);
+
+@import "~bootstrap/scss/bootstrap";
+@import "~@fortawesome/fontawesome-free/scss/brands";
+@import "~@fortawesome/fontawesome-free/scss/regular";
+@import "~@fortawesome/fontawesome-free/scss/solid";
+@import "~@fortawesome/fontawesome-free/scss/fontawesome";
+@import "_form_label_group.scss";
+
+html,
+body {
+    height: 100%;
+}
+
+.loginpage {
+    background: url('https://gocpa.ru/img/banner-bg.png') no-repeat;
+    background-position: top center;
+}
+
+.loginmargin {
+    margin-top:180px;
+}
+
+.loginleft__header {
+    font-weight: 100;
+    font-size: 17px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.loginleft__text {
+    font-weight: 100;
+    font-size: 0.9rem;
+    margin-bottom: 2rem;
+}
+
+.loginright{
+    &__header {
+        font-size: 2rem;
+        line-height: 1.2;
+        font-weight: 100;
+        color: #000000;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
+    &__text {
+        color: #888;
+        font-size: 0.9rem;
+        font-weight: 300;
+    }
+}
+
+@media (max-width: 767px) {
+    .loginmargin {margin-top:50px;}
+    .loginpage {background: none;}
+    .logintooltips {padding:20px;background:$primary}
+}
+
+@each $breakpoint in map-keys($grid-breakpoints) {
+    @include media-breakpoint-up($breakpoint) {
+        $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+
+        @each $size, $length in $sizes {
+            .w#{$infix}-#{$size} {
+                width: $length !important;
+            }
+        }
+    }
+}

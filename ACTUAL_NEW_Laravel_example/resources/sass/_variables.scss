@@ -1,0 +1,33 @@
+$breadcrumb-bg: #fff;
+$breadcrumb-border-radius: 0;
+// Body
+$body-bg: #f3f3f4;
+$body-color: #676a6c;
+$headings-font-weight: 600;
+$font-weight-bold: 600;
+
+$font-size-base: 1rem;
+$h1-font-size: $font-size-base * 1.5;
+$breadcrumb-active-color: rgb(103, 106, 108);
+$badge-font-size: .65em;
+
+// Typography
+// $font-size-base: 0.875rem;
+$font-family-sans-serif: 'Open Sans', sans-serif;
+
+$primary: #5d26d9;
+$warning: #f8ac59;
+$navy: #1ab394;
+$secondary: #999c9e;
+
+$enable-rounded: true;
+$enable-shadows: true;
+$enable-gradients: true;
+
+$sizes: (
+    25: 25%,
+    50: 50%,
+    75: 75%,
+    100: 100%,
+    auto: auto
+);

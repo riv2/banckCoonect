@@ -1,0 +1,83 @@
+{
+    "name": "jet/pricing-app",
+    "authors": [
+        {
+            "name": "Yuriy",
+            "email": "yuri.shalaykin@vseinstrumenti.ru"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "2.0.14",
+        "yiisoft/yii2-swiftmailer": "^2.1@dev",
+        "bower-asset/jquery": "3.2.*@stable",
+        "bower-asset/inputmask": "3.2.*@stable",
+        "yiisoft/yii2-bootstrap": "^2.0",
+        "guzzlehttp/guzzle": "~6.0",
+        "edvlerblog/yii2-adldap-module": "v1.1.0",
+        "kartik-v/yii2-widget-timepicker": "^1.0",
+        "kartik-v/yii2-widget-select2": "@dev",
+        "kartik-v/yii2-widget-activeform": "@dev",
+        "kartik-v/yii2-sortable": "^1.2",
+        "kartik-v/yii2-widget-switchinput": "^1.3",
+        "ruskid/yii2-csv-importer": "dev-master",
+        "nineinchnick/yii2-usr": "dev-master",
+        "dmstr/yii2-adminlte-asset": "2.2.4",
+        "neitanod/forceutf8": "dev-master",
+        "yiisoft/yii2-redis": "~2.0.0",
+        "mouse0270/bootstrap-growl": "^3.1",
+        "skeeks/yii2-assets-auto-compress": "^1.4",
+        "letyii/yii2-rbac-cached": "dev-master",
+        "kartik-v/yii2-date-range": "dev-master",
+        "bower-asset/jquery-sortable": "^0.9.13",
+        "box/spout": "^2.7",
+        "maddoger/yii2-select2": "*",
+        "almasaeed2010/adminlte": "v2.3.6",
+        "phpoffice/phpexcel": "dev-master",
+        "spatie/async": "dev-master",
+        "philippfrenzel/yii2fullcalendar": "2.2.5",
+        "ext-amqp": "*",
+        "mito/yii2-sentry": "~1.0.0",
+        "creocoder/yii2-flysystem": "dev-master"
+    },
+    "require-dev": {
+        "yiisoft/yii2-debug": "~2.0.0"
+    },
+    "minimum-stability": "dev",
+    "config": {
+        "process-timeout": 1800,
+        "fxp-asset": {
+            "enabled": true,
+            "installer-paths": {
+                "npm-asset-library": "vendor/npm-asset",
+                "bower-asset-library": "vendor/bower-asset"
+            }
+        }
+    },
+    "scripts": {
+        "pre-update-cmd" : [
+        ],
+        "pre-install-cmd" : [
+        ],
+        "post-create-project-cmd": [
+        ],
+        "post-install-cmd": [
+            "chmod 777 runtime",
+            "chmod 777 runtime/download",
+            "chmod 777 runtime/upload",
+            "chmod 777 web/assets",
+            "chmod 755 yii"
+        ]
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "netis\\crud\\": "netis/yii2-crud/",
+            "netis\\rbac\\": "netis/yii2-relauth/"
+        }
+    }
+}

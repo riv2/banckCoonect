@@ -1,0 +1,13 @@
+{
+  "name": "parsing",
+  "version": "1.0.0",
+  "description": "Демон для чтения спарсенных данных из RabbitMQ в PostgreSQL",
+  "dependencies": {
+    "amqplib": "0.5.1",
+    "child_process": "^1.0.2",
+    "md5": "^2.2.1",
+    "minimist": "^1.2.0",
+    "pg": "^6.1.4",
+    "pg-native": "^1.10.0"
+  }
+}

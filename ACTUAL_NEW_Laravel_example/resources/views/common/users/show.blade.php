@@ -1,0 +1,1 @@
+@extends('partner.profile.index')

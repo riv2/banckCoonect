@@ -1,0 +1,7 @@
+{
+  "name": "pricing",
+  "dependencies": {
+    "jquery-sortable ": "*",
+    "fullcalendar": "2.3.2"
+  }
+}

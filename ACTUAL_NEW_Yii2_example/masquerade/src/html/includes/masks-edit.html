@@ -1,0 +1,239 @@
+<h2>
+    Настройки маски
+
+    <button id="msk-save" type="submit" class="btn btn-primary" style="float: right"><i class="fa fa-save"></i> Сохранить</button>
+    <button id="msk-delete" type="submit" class="btn btn-primary btn-danger" style="float: right; margin-right: 5px;"><i class="fa fa-trash"></i> Удалить</button>
+
+</h2>
+
+<!--Левый аккордеон-->
+<div class="accordion md-accordion" id="accordionEditMask" >
+
+    <!-- Название -->
+    <div class="msk-grp card">
+        <a class="card-header collapsed" data-toggle="collapse" href="#record">
+            Название <i class="fas fa-angle-down rotate-icon"></i>
+        </a>
+        <div id="record" class="card-body collapse"  >
+            <div class="form-group">
+                <label>Название</label>
+                <input name="name" type="text" class="form-control form-control-sm" placeholder="Название маски" />
+                <input id="msk-id" type="hidden"/>
+                <input id="project-id" type="hidden"/>
+            </div>
+            <div class="form-group">
+                <label>Домен</label>
+                <input name="domain" type="text" class="form-control form-control-sm" placeholder="example.com" />
+            </div>
+        </div>
+    </div>
+
+    <!-- Ожидание -->
+    <div class="msk-grp card">
+        <a class="card-header collapsed" data-toggle="collapse"  href="#msk-wait">
+            Ожидание <i class="fas fa-angle-down rotate-icon"></i>
+        </a>
+        <div id="msk-wait" class="card-body collapse" >
+            <div class="form-group">
+                <label>Ждать до</label>
+                <select name="wait[untilState]" class="form-control form-control-sm">
+                    <option value="load" selected="">Не ждать</option>
+                    <option value="domcontentloaded" selected="">DOM структура загружена</option>
+                    <option value="networkidle0">Нет ни одного ajax соединения</option>
+                    <option value="networkidle2">Не более двух ajax содинений</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>Ждать появления элемента</label>
+                <input name="wait[forElement]" type="text" class="form-control form-control-sm" placeholder="" />
+            </div>
+            <div class="form-group">
+                <label>Ждать перед парсингом (в миллисекундах)</label>
+                <input name="wait[beforeStart]" type="text" class="form-control form-control-sm" placeholder="" />
+            </div>
+            <div class="form-group">
+                <label>Cкрол (чем больше чем медленнее)</label>
+                <input name="wait[scroll]" type="text" class="form-control form-control-sm" placeholder="0 - отключен" />
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Маски границ -->
+    <div class="msk-grp card">
+        <a class="card-header collapsed" data-toggle="collapse"  href="#msk-bounds-tab">
+            Маски границ <i class="fas fa-angle-down rotate-icon"></i>
+        </a>
+        <div id="msk-bounds-tab" class="card-body collapse" >
+            <div class="msk-field-name m-1">Границы:</div>
+            <div class="msk-add-pane input-group form-inline p-2">
+                <select id="msk-add-bounds-type" class="custom-select custom-select-sm"></select>
+                <div class="input-group-append">
+                    <a id="msk-add-bounds-btn" href="#" class="btn btn-secondary btn-sm">
+                        <i class="fa fa-plus"></i> Добавить
+                    </a>
+                </div>
+            </div>
+            <ul id="msk-bounds" class="msk-fields"></ul>
+
+            <div class="msk-field-name m-1">Признак 404:</div>
+            <div class="msk-add-pane input-group form-inline p-2">
+                <select id="msk-add-http404-type" class="custom-select custom-select-sm"></select>
+                <div class="input-group-append">
+                    <a id="msk-add-http404-btn" href="#" class="btn btn-secondary btn-sm">
+                        <i class="fa fa-plus"></i> Добавить
+                    </a>
+                </div>
+            </div>
+            <ul id="msk-http404" class="msk-fields"></ul>
+
+        </div>
+    </div>
+
+
+    <!-- Маски данных -->
+    <div class="msk-grp card">
+        <a class="card-header collapsed" data-toggle="collapse"  href="#msk-fields-tab">
+            Маски данных <i class="fas fa-angle-down rotate-icon"></i>
+        </a>
+        <div id="msk-fields-tab" class="card-body collapse">
+            <div class="msk-add-pane input-group form-inline">
+                <select id="msk-add-field-name" class="custom-select custom-select-sm"></select>
+                <select id="msk-add-field-type" class="custom-select custom-select-sm rounded-0"></select>
+                <div class="input-group-append">
+                    <a id="msk-add-field-btn" href="#" class="btn btn-secondary btn-sm">
+                        <i class="fa fa-plus"></i> Добавить
+                    </a>
+                </div>
+            </div>
+            <ul id="msk-fields" class="msk-fields"></ul>
+        </div>
+    </div>
+
+    <!-- Маски наличия -->
+    <div class="msk-grp card">
+        <a class="card-header collapsed" data-toggle="collapse"  href="#msk-stock-tab">
+            Маски наличия <i class="fas fa-angle-down rotate-icon"></i>
+        </a>
+        <div id="msk-stock-tab" class="card-body collapse" >
+            <div class="msk-add-pane input-group form-inline p-2">
+                <select id="msk-add-stock-out" class="custom-select custom-select-sm">
+                    <option value="out">Отсутствует при</option>
+                    <option value="in">В наличии при</option>
+                </select>
+                <select id="msk-add-stock-type" class="custom-select custom-select-sm rounded-0"></select>
+                <div class="input-group-append">
+                    <a id="msk-add-stock-btn" href="#" class="btn btn-secondary btn-sm">
+                        <i class="fa fa-plus"></i> Добавить
+                    </a>
+                </div>
+            </div>
+            <ul id="msk-stock" class="msk-fields"></ul>
+        </div>
+    </div>
+
+    <!-- Кнопки и ссылки -->
+    <div class="msk-grp card">
+        <a class="card-header collapsed" data-toggle="collapse"  href="#msk-actions-tab">
+            Клики и ссылки <i class="fas fa-angle-down rotate-icon"></i>
+        </a>
+        <div id="msk-actions-tab" class="card-body collapse" >
+            <div class="msk-add-pane input-group form-inline p-2">
+                <select id="msk-add-actions-kind" class="custom-select custom-select-sm"></select>
+                <select id="msk-add-actions-type" class="custom-select custom-select-sm rounded-0" style="display:none;"></select>
+                <div class="input-group-append">
+                    <a id="msk-add-actions-btn" href="#" class="btn btn-secondary btn-sm">
+                        <i class="fa fa-plus"></i> Добавить
+                    </a>
+                </div>
+            </div>
+            <ul id="msk-actions" class="msk-fields"></ul>
+        </div>
+    </div>
+
+
+    <!-- Замены -->
+    <div class="msk-grp card">
+        <a class="card-header collapsed" data-toggle="collapse"  href="#msk-replaces-tab">
+            Замены <i class="fas fa-angle-down rotate-icon"></i>
+        </a>
+        <div id="msk-replaces-tab" class="card-body collapse" >
+            <div class="msk-add-pane input-group form-inline p-2">
+                <a id="msk-add-replaces-btn" href="#" class="btn btn-secondary btn-sm fa-pull-right">
+                    <i class="fa fa-plus"></i> Добавить
+                </a>
+            </div>
+            <ul id="msk-replaces" class="msk-fields"></ul>
+        </div>
+    </div>
+
+
+    <!-- Даты -->
+    <div class="msk-grp card">
+        <a class="card-header collapsed" data-toggle="collapse"  href="#msk-dates-tab">
+            Даты <i class="fas fa-angle-down rotate-icon"></i>
+        </a>
+        <div id="msk-dates-tab" class="card-body collapse" >
+            <div class="msk-add-pane input-group form-inline p-2 input-group-sm">
+                <a id="msk-add-dateformat-btn" href="#" class="btn btn-secondary btn-sm">
+                    <i class="fa fa-plus"></i> Добавить формат
+                </a>
+            </div>
+            <ul id="msk-dateformat" class="msk-fields"></ul>
+            <div class="msk-add-pane input-group form-inline p-2">
+                <select id="msk-add-dateparse-kind" class="custom-select custom-select-sm">
+                    <option value="replace">Замена</option>
+                    <option value="match">Вхождение</option>
+                </select>
+                <div class="input-group-append">
+                    <a id="msk-add-dateparse-btn" href="#" class="btn btn-secondary btn-sm">
+                        <i class="fa fa-plus"></i> Добавить
+                    </a>
+                </div>
+            </div>
+            <ul id="msk-dateparse" class="msk-fields"></ul>
+        </div>
+    </div>
+
+    <!-- Капча -->
+    <div class="msk-grp card">
+        <a class="card-header collapsed" data-toggle="collapse"  href="#msk-captcha">
+            Капча <i class="fas fa-angle-down rotate-icon"></i>
+        </a>
+        <div id="msk-captcha" class="card-body collapse" >
+            <div class="form-group">
+                <label for="captcha[enabled]"><input name="captcha[enabled]" type="checkbox" id="captcha[enabled]"/> Включена</label>
+            </div>
+            <div class="form-group">
+                <label>Картинка</label>
+                <input name="captcha[imgSelector]" type="text" class="form-control form-control-sm" placeholder="" />
+            </div>
+            <div class="form-group">
+                <label>Поле ввода</label>
+                <input name="captcha[inputSelector]" type="text" class="form-control form-control-sm" placeholder="" />
+            </div>
+            <div class="form-group">
+                <label>Кнопка отправки</label>
+                <input name="captcha[buttonSelector]" type="text" class="form-control form-control-sm" placeholder="" />
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Скрипты  -->
+    <div class="msk-grp card">
+        <a class="card-header collapsed" data-toggle="collapse"  href="#msk-scripts-tab">
+            Скрипты<i class="fas fa-angle-down rotate-icon"></i>
+        </a>
+        <div id="msk-scripts-tab" class="card-body collapse" >
+            <div class="msk-add-pane input-group form-inline p-2">
+                <a id="msk-add-scripts-btn" href="#" class="btn btn-secondary btn-sm">
+                    <i class="fa fa-plus"></i> Добавить скрипт
+                </a>
+            </div>
+            <ul id="msk-scripts" class="msk-fields"></ul>
+        </div>
+    </div>
+
+</div>
+<!-- конец аккордеона -->

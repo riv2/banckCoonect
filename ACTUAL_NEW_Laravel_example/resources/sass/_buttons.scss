@@ -1,0 +1,37 @@
+:root {
+    --bs-hover-color: #{$primary};
+}
+@each $color, $value in $theme-colors {
+    .btn-#{$color} {
+        background-color: var(--bs-#{$color});
+        border-color: var(--bs-#{$color});
+        &:hover {
+            color: #fff;
+            background-color: var(--bs-hover-color);
+            border-color: var(--bs-hover-color);
+        }
+    }
+  }
+
+  @each $color, $value in $theme-colors {
+    .btn-outline-#{$color} {
+        color: var(--bs-#{$color});
+        border-color: var(--bs-#{$color});
+    }
+  }
+
+// .btn-outline-primary {
+//     color: var(--bs-primary);
+//     border-color: var(--bs-primary);
+// }
+
+// .btn-primary {
+//     background-color: var(--bs-primary);
+//     background-image: var(--bs-gradient);
+//     border-color: var(--bs-primary);
+//     &:hover {
+//         background-color: #4f20b8;
+//         background-image: var(--bs-gradient);
+//         border-color: #4a1eae;
+//     }
+// }

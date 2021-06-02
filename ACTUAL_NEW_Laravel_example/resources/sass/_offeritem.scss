@@ -1,0 +1,5 @@
+.offeritem {
+    &__title {
+        @include font-size(1.7rem);
+    }
+}

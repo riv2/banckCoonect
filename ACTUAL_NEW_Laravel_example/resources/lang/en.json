@@ -1,0 +1,12 @@
+{
+    "Пароль": "Password",
+    "Go Home": "Return to home page",
+    "emails.verify.advertiser_registered": "GoCPA Cloud account is successfully registered",
+    "emails.verify.partner_registered": "Account is successfully registered",
+    "Выплаты": "Payments",
+    "success.pp.created": "We sent password to the specified E-mail",
+    "success.partner.created": "Мы отправили на указанную почту пароль. Пожалуйста, введите его здесь",
+    "Кабинет менеджера": "Manager",
+    "Кабинет рекламодателя": "Advertiser",
+    "Кабинет партнера": "Partner"
+}

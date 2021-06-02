@@ -1,0 +1,18 @@
+{
+  "name": "netis/yii2-relauth",
+  "description": "A set of Yii 2 framework components to use model relations when checking user authorization.",
+  "type": "yii2-extension",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jan Waś",
+      "email": "jwas@netis.pl"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": ">=2.0.4"
+  },
+  "autoload": {
+    "psr-4": { "netis\\rbac\\": "" }
+  }
+}

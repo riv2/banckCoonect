@@ -1,0 +1,34 @@
+<% var data = {
+  title: "Маски",
+}; %>
+
+<%= _.template(require('./../includes/header.html').default)(data) %>
+<!-- Image and text -->
+<nav class="navbar navbar-expand navbar-light bg-light">
+  <a class="navbar-brand" href="http://pricing.vseinstrumenti.ru">
+    <img src="img/logo.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+    Masquerade
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav" id="testing-tabs">
+      <li class="nav-item">
+        <a class="nav-link" href="#" data-tab="log" target="testing-iframe">Логи</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" data-tab="html" target="testing-iframe">HTML</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" data-tab="noVnc" target="testing-iframe">Терминал</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" data-tab="parsed" id="parsed-data">Спарсенные данные</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<iframe src="" name="testing-iframe" id="testing-iframe"></iframe>
+<div id="parsing-results"></div>
+<%= _.template(require('./../includes/footer.html').default)(data) %>

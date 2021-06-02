@@ -1,0 +1,40 @@
+version: "3.5"
+
+networks:
+  pricing-network:
+    name: ${APP_NAME:-pricing}-network
+    driver: bridge
+    ipam:
+      driver: default
+      config:
+      - subnet: ${APP_SUBNET:-172.0.1.0/24}
+
+x-common: &common
+  networks:
+  - pricing-network
+  extra_hosts:
+  - "host.docker.internal:${HOST_DOCKER_INTERNAL:-172.0.1.1}"
+
+services:
+
+  app:
+    <<: *common
+    build:
+      context: ./docker
+      dockerfile: Dockerfile
+      args:
+        - YII_ENV=${YII_ENV}
+    networks:
+      - pricing-network
+    env_file:
+      - .env
+      - .env.local
+    ports:
+      - 9000
+      - ${APP_WS:-8891}:8891
+      - ${APP_WSS:-8892}:8892
+      - ${APP_PORT:-80}:80
+      - ${APP_PORT_SSL:-443}:443
+    volumes:
+      - .:/app:delegated
+      - ./docker/hosts:/hosts:delegated

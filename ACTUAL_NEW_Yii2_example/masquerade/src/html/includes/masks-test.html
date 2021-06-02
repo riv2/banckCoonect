@@ -1,0 +1,162 @@
+<h2>Тестирование маски <button id="msk-run-test" type="submit" class="btn btn-primary btn-success" style="float: right;"><i class="fa fa-rocket"></i> Тестировать</button></h2>
+
+<div class="form-group">
+    <label>Урлы</label>
+    <textarea name="test_urls"  id="test_urls" class="form-control form-control-sm" rows="6" style="font-size: 10px;"></textarea>
+    <label><input id="flag-noProxy" type="checkbox"  checked="checked" /> Без проксей</label>
+	<label><input id="flag-torEnabled" type="checkbox"/>Использовать Tor</label>
+    <label><input id="flag-html" type="checkbox" /> Захват HTML</label>
+    <label><input id="flag-debug" type="checkbox" /> Дебаг</label>
+</div>
+
+<form class="form" id="project-form">
+    <div class="row">
+        <div class="col">
+            <div class="form-group">
+                <label>Тип браузера</label>
+                <select name="project[browser]" class="custom-select custom-select-sm">
+                    <option value="">Без браузера</option>
+                    <option value="chrome">Chromium</option>
+                    <option value="firefox">FireFox</option>
+                </select>
+            </div>
+        </div>
+        <div class="col">
+            <div class="form-group">
+                <label>Тип дроида</label>
+                <select name="project[droid_type]" class="custom-select custom-select-sm">
+                    <option value="p-droid" selected="">P-Droid - обычный дроид</option>
+                    <option value="v-droid">V-Droid - шайтан-дроид</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <div class="accordion md-accordion" id="accordionParsing" >
+
+        <div class="msk-grp card">
+            <a class="card-header collapsed" data-toggle="collapse"  href="#project-rouge">
+                Скрытность <i class="fas fa-angle-down rotate-icon"></i>
+            </a>
+            <div id="project-rouge" class="card-body collapse" >
+                <div class="form-group">
+                    <label>User Agent</label>
+                    <textarea  name="project[userAgents]"  class="form-control form-control-sm"></textarea>
+                </div>
+                <div class="form-group">
+                    <label>Прокси</label>
+                    <textarea  name="project[proxies]"  class="form-control form-control-sm"></textarea>
+                </div>
+                <div class="form-group">
+                    <label>Куки</label>
+                    <textarea name="project[cookies]"  class="form-control form-control-sm"></textarea>
+                </div>
+                <div class="form-group">
+                    <label>Домен для кук</label>
+                    <input name="project[cookies_domain]"  class="form-control form-control-sm"/>
+                </div>
+                <div class="form-group">
+                    <label>Урл проверки прокси</label>
+                    <input type="text" name="project[ping_url]"  class="form-control form-control-sm" />
+                </div>
+                <div class="form-group">
+                    <label>Ключ антикачи</label>
+                    <input type="text" name="project[antiCaptchaKey]"  class="form-control form-control-sm" />
+                </div>
+            </div>
+        </div>
+        <div class="msk-grp card">
+            <a class="card-header collapsed" data-toggle="collapse"  href="#project-vpn">
+                VPN <i class="fas fa-angle-down rotate-icon"></i>
+            </a>
+            <div id="project-vpn" class="card-body collapse" >
+
+                <div class="form-group">
+                    <label>VPN</label>
+                    <select name="project[vpn][provider]" class="custom-select custom-select-sm" >
+                        <option value="">Без VPN</option>
+                        <option value="openvpn">OpenVPN</option>
+                        <option value="hma">Hide My Ass!</option>
+                    </select>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <div class="form-group">
+                            <label>VPN юзер</label>
+                            <input type="text" name="project[vpn][username]"  class="form-control form-control-sm" />
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-group">
+                            <label>VPN пароль</label>
+                            <input type="text" name="project[vpn][password]"  class="form-control form-control-sm" />
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>VPN конфиг</label>
+                    <textarea name="project[vpn][config]"  class="form-control form-control-sm"></textarea>
+                </div>
+            </div>
+        </div>
+
+        <div class="msk-grp card">
+            <a class="card-header collapsed" data-toggle="collapse"  href="#project-stress">
+                Частота <i class="fas fa-angle-down rotate-icon"></i>
+            </a>
+            <div id="project-stress" class="card-body collapse" >
+                <div class="form-group">
+                    <label>Кол-во потоков</label>
+                    <input type="number" name="project[maxThreads]"  class="form-control form-control-sm" />
+                </div>
+                <div class="form-group">
+                    <label>Промежуток между урлами</label>
+                    <input type="number" name="project[delay]"  class="form-control form-control-sm" />
+                </div>
+                <div class="form-group">
+                    <label>Таймаут запроса</label>
+                    <input type="number" name="project[timeout]"  class="form-control form-control-sm" />
+                </div>
+                <div class="form-group">
+                    <label>Кол-во попыток</label>
+                    <input type="number" name="project[retries]"  class="form-control form-control-sm" />
+                </div>
+                <div class="form-group">
+                    <label>Промежуток между попытками</label>
+                    <input type="number" name="project[retryDelay]"  class="form-control form-control-sm" />
+                </div>
+                <div class="form-group">
+                    <label>Таймаут попытки</label>
+                    <input type="number" name="project[retryTimeout]"  class="form-control form-control-sm" />
+                </div>
+                <div class="form-group">
+                    <label>Перезапускать браузер каждые</label>
+                    <input type="number" name="project[restart_browser]"  class="form-control form-control-sm" />
+                </div>
+            </div>
+        </div>
+
+        <div class="msk-grp card">
+            <a class="card-header collapsed" data-toggle="collapse"  href="#project-optimization">
+                Оптимизация <i class="fas fa-angle-down rotate-icon"></i>
+            </a>
+            <div id="project-optimization" class="card-body collapse" >
+                <div class="form-group">
+                    <label>
+                        <input type="checkbox" name="project[disableImages]"  class="form-control form-control-sm" />
+                        Отключить картинки
+                    </label>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div>
+        <a href="#" id="download-settings">Скачать файл settings-test</a>
+        <a href="#" id="download-queue">Скачать файл queue-test</a>
+    </div>
+</form>
+
+<div class="m-t-5">
+    <table id="msk-parsing-results" class="table"></table>
+</div>
