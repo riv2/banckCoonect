@@ -9,7 +9,7 @@ ACTUAL_NEW_Laravel_Billing_example - Пример реализации моду�
 ACTUAL_NEW_Laravel_example - Пример реализации на Laravel framework. (Не полностью мой код) 
 - Пример моего кода из ACTUAL_NEW_Laravel_example:  https://github.com/riv2/Examples_codes_not_full/blob/master/ACTUAL_NEW_Laravel_example/app/Processors/ProductsOrderProcessor.php
 
-ACTUAL_NEW_Yii2_example - ример реализации на Yii2 framework. (Не полностью мой код) 
+ACTUAL_NEW_Yii2_example - Пример реализации на Yii2 framework. (Не полностью мой код) 
 - Пример моего кода из ACTUAL_NEW_Yii2_example: https://github.com/riv2/Examples_codes_not_full/blob/master/ACTUAL_NEW_Yii2_example/models/pool/LogPriceCalculation.php (Тут лучше спрашивать у меня)
 
 
