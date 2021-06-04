@@ -2,22 +2,21 @@
 
 namespace App\Http\Controllers\Balance;
 
-use App\Models\BalanceHistory;
 use AvtoDev\JsonRpc\Requests\RequestInterface;
-
+use App\Providers\BalanceServiceProvider;
+use Illuminate\Foundation\Application;
 
 class BalanceController
 {
-    /**
-     * Get balance of user
-     *
-     * @param RequestInterface $request
-     *
-     * @return int
-     */
+    private $balanceServiceProvider;
+
+    public function __construct(Application $app)
+    {
+        $this->balanceServiceProvider = new BalanceServiceProvider($app);
+    }
+
     public function userBalance(RequestInterface $request)
     {
-        $balance        = 0;
         $user_id        = 0;
         $params         = $request->getParams();
 
@@ -25,15 +24,7 @@ class BalanceController
             $user_id = (int)$params->user_id;
         }
 
-        $userBalance = BalanceHistory::where('user_id', $user_id)
-                        ->latest('created_at', 'desc')
-                        ->first();
-
-        if (isset($userBalance['balance'])) {
-            $balance = $userBalance['balance'];
-        }
-
-        return $balance;
+        return $this->balanceServiceProvider->userBalance($user_id);
     }
 
     /**
@@ -52,8 +43,6 @@ class BalanceController
             $limit = (int)$params->limit;
         }
 
-        $balanceHistory = BalanceHistory::whereNotNull('id')->limit($limit)->get()->toArray();
-
-        return $balanceHistory;
+        return $this->balanceServiceProvider->history($limit);
     }
 }
